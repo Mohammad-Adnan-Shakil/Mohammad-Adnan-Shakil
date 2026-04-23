@@ -1,110 +1,58 @@
 <h1 align="center">Mohammad Adnan Shakil</h1>
 
 <p align="center">
-Full Stack Developer • MERN + Java • Future AI Engineer
+  Backend · Full Stack · ML Integration &nbsp;|&nbsp; Spring Boot · React · Python · PostgreSQL
 </p>
 
 <p align="center">
-<a href="https://github.com/Mohammad-Adnan-Shakil">
-<img src="https://komarev.com/ghpvc/?username=Mohammad-Adnan-Shakil&label=Profile%20Views&color=0e75b6&style=flat" />
-</a>
-</p>
-
-<p align="center">
-<img src="https://readme-typing-svg.herokuapp.com?size=22&duration=4000&color=00F7FF&center=true&vCenter=true&width=650&lines=Full+Stack+Developer+(MERN+%2B+Java);Building+Scalable+Real-World+Projects;Spring+Boot+%7C+React+%7C+PostgreSQL;Future+AI%2FML+Engineer;Focused+on+Growth+%26+Consistency" />
+  <a href="https://linkedin.com/in/mohammadadnanshakil">
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white"/>
+  </a>
+  &nbsp;
+  <a href="mailto:muhammedadnanshakil456@gmail.com">
+    <img src="https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white"/>
+  </a>
+  &nbsp;
+  <img src="https://komarev.com/ghpvc/?username=Mohammad-Adnan-Shakil&label=views&color=0e75b6&style=flat-square" />
 </p>
 
 ---
 
-## About Me
+## About
 
-I am a **Computer Science Engineering student** at Presidency University, focused on becoming a **high-level full stack developer** and transitioning into **AI/ML**.
+Second-year CSE student at Presidency University, Bengaluru. I build full-stack systems end-to-end — backend APIs, ML pipelines, React frontends — without templates or boilerplate starters.
 
-I focus on **building real-world systems**, not just following tutorials.
-
-- MERN Stack + Java (Spring Boot)
-- Backend-focused development
-- Strong interest in scalable architectures
-- Actively preparing for internships (2026)
-
----
-
-## Current Focus
-
-- Building production-level projects  
-- Strengthening backend (Spring Boot + PostgreSQL)  
-- Improving frontend with React + Tailwind  
-- Preparing for internships and real-world experience  
+Currently targeting backend and full-stack internships for mid-2026.
 
 ---
 
 ## Featured Projects
 
-### F1 Pulse
+### [DeltaBox](https://github.com/Mohammad-Adnan-Shakil/delta-box) — F1 Race Intelligence Platform
 
-A full-stack Formula 1 data platform with backend-driven architecture.
+A 3-model ML ensemble (XGBoost + Random Forest + Linear Regression) orchestrated from a Java backend via `ProcessBuilder`. Includes a conflict detection layer that flags high-uncertainty predictions instead of hiding them behind a confident number.
 
-**Features:**
-- Driver & team data sync  
-- Clean API integration  
-- DTO-based backend structure  
-- Responsive UI  
+- Cross-language ML execution: Java → Python subprocess via JSON over STDIN/STDOUT
+- JWT + RBAC implemented from scratch (no Spring Security defaults)
+- Feature engineering pipeline: rolling avg, consistency score, recent form, grid delta
+- What-if simulation engine: adjust grid position, see predicted outcome shift
 
-**Tech:**
-`Spring Boot` • `PostgreSQL` • `React` • `Tailwind`
+`Spring Boot` `PostgreSQL` `React` `Tailwind` `Python` `XGBoost` `Framer Motion` `JWT`
 
 ---
 
-### CentSight
+### [CentSight](https://github.com/Mohammad-Adnan-Shakil/centsight) — Financial Decision Simulator
 
-AI-powered financial decision simulator.
+ML-powered financial simulator. Users input scenarios and receive data-backed projections from a Scikit-learn model served via a Python/Express backend.
 
-**Features:**
-- Future financial prediction  
-- ML-based simulation  
-- Decision insights dashboard  
-
-**Tech:**
-`Node.js` • `React` • `Python` • `Scikit-learn`
-
----
-
-### Notes App (Redux Toolkit)
-
-Structured note management system.
-
-**Features:**
-- Create / Edit / Delete notes  
-- Global state with Redux  
-- Clean component structure  
-
-**Tech:**
-`React` • `Redux Toolkit`
+`Node.js` `React` `Python` `Scikit-learn` `Express`
 
 ---
 
 ## Tech Stack
 
 <p align="center">
-
-<img src="https://skillicons.dev/icons?i=javascript,react,nodejs,express,mongodb,java,spring,postgresql,python,tailwind,git,github" />
-
-</p>
-
----
-
-## Connect With Me
-
-<p align="center">
-
-<a href="https://linkedin.com/in/mohammadadnanshakil">
-<img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
-</a>
-
-<a href="mailto:muhammedadnanshakil456@gmail.com">
-<img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
-</a>
-
+  <img src="https://skillicons.dev/icons?i=java,spring,python,javascript,react,nodejs,express,postgresql,mongodb,tailwind,git,github" />
 </p>
 
 ---
@@ -112,23 +60,7 @@ Structured note management system.
 ## GitHub Stats
 
 <p align="center">
-
-<img src="https://github-readme-stats.vercel.app/api?username=Mohammad-Adnan-Shakil&show_icons=true&theme=tokyonight&hide_border=true" />
-
-<img src="https://nirzak-streak-stats.vercel.app/?user=Mohammad-Adnan-Shakil&theme=tokyonight&hide_border=true" />
-
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Mohammad-Adnan-Shakil&layout=compact&theme=tokyonight&hide_border=true" />
-
+  <img src="https://github-readme-stats.vercel.app/api?username=Mohammad-Adnan-Shakil&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github" />
+  <br/>
+  <img src="https://nirzak-streak-stats.vercel.app/?user=Mohammad-Adnan-Shakil&theme=tokyonight&hide_border=true" />
 </p>
-
----
-
-## Philosophy
-
-> Discipline > Motivation
-
-- Build more, consume less  
-- Stay consistent even when it’s boring  
-- Focus on long-term growth  
-
----
