@@ -1,72 +1,130 @@
 <div align="center">
 
-# Mohammad Adnan Shakil
+<img src="https://capsule-render.vercel.app/api?type=waving&color=8B0000,DC143C,000000&height=220&section=header&text=Mohammad%20Adnan%20Shakil&fontSize=42&fontColor=ffffff&fontAlignY=38&desc=Backend%20Engineer%20%E2%80%A2%20Full%20Stack%20%E2%80%A2%20ML%20Systems&descAlignY=60&descSize=17&animation=fadeIn"/>
 
-### Backend Engineer • Full Stack Developer • ML Systems Builder
+<br/>
 
-Second-year CSE student building production-grade systems with Java, Spring Boot, React, PostgreSQL, and Python ML pipelines.
+<a href="https://linkedin.com/in/mohammadadnanshakil">
+  <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
+</a>
+&nbsp;
+<a href="mailto:muhammedadnanshakil456@gmail.com">
+  <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
+</a>
+&nbsp;
+<a href="YOUR_PORTFOLIO_LINK">
+  <img src="https://img.shields.io/badge/Portfolio-111111?style=for-the-badge&logo=vercel&logoColor=white"/>
+</a>
 
-📍 Bengaluru, India  
-📧 muhammedadnanshakil456@gmail.com  
+<br/><br/>
 
-[LinkedIn](your-linkedin) • [Portfolio](your-portfolio) • [Resume](your-resume-link)
+<img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&size=18&duration=3000&pause=900&color=DC143C&center=true&vCenter=true&width=800&lines=Spring+Boot+%7C+React+%7C+PostgreSQL+%7C+Python;Building+production-grade+backend+systems;Java+%E2%86%94+Python+ML+orchestration;JWT+Security+%7C+RBAC+%7C+System+Design;Targeting+Backend+%2F+Full-Stack+Internships+2026"/>
 
 </div>
 
 ---
 
-# What I Build
+## ◈ About Me
 
-I specialize in:
+Second-year CSE student at Presidency University, Bengaluru.
 
-✅ Backend API systems  
-✅ Cross-language architectures (Java ↔ Python)  
-✅ Machine Learning inference pipelines  
-✅ Authentication & Security (JWT + RBAC)  
+I build **production-grade systems** from scratch:
+backend APIs, ML pipelines, cross-language architectures, and scalable full-stack apps.
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Backend%20APIs-success?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/ML%20Pipelines-critical?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/System%20Design-blue?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/JWT%20Security-black?style=for-the-badge"/>
+</p>
+
+---
+
+## ◈ Featured Projects
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+## 🔴 DeltaBox
+
+### F1 Intelligence Platform
+
+A full-stack AI system combining backend engineering + machine learning.
+
+✅ Java → Python subprocess architecture
+✅ 3-model ML ensemble
+✅ JWT + RBAC authentication
+✅ What-if simulation engine
+
+<br/>
+
+<img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=springboot"/>
+<img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react"/>
+<img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql"/>
+<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python"/>
+<img src="https://img.shields.io/badge/XGBoost-FF6600?style=flat-square"/>
+
+<br/><br/>
+
+<a href="https://github.com/Mohammad-Adnan-Shakil/delta-box">
+  <img src="https://img.shields.io/badge/View_Project-B22222?style=for-the-badge"/>
+</a>
+
+</td>
+
+<td width="50%" valign="top">
+
+## 🔴 CentSight
+
+### Financial Decision Simulator
+
+ML-powered simulation platform for real-world financial forecasting.
+
+✅ Python model integration
+✅ Scenario simulation engine
+✅ Real-time prediction system
 ✅ Full-stack deployment
 
----
+<br/>
 
-# Featured Projects
+<img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js"/>
+<img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react"/>
+<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python"/>
+<img src="https://img.shields.io/badge/Scikit--Learn-F7931E?style=flat-square&logo=scikitlearn"/>
 
-## DeltaBox
-F1 Intelligence Platform
+<br/><br/>
 
-Tech: Spring Boot • React • PostgreSQL • Python • XGBoost
+<a href="https://github.com/Mohammad-Adnan-Shakil/centsight">
+  <img src="https://img.shields.io/badge/View_Project-B22222?style=for-the-badge"/>
+</a>
 
-Highlights:
-- Built a 3-model ML ensemble system
-- Integrated Java backend with Python models using ProcessBuilder
-- Designed What-if simulation engine
-- Implemented JWT auth + role-based access control
-- Deployed full-stack system
-
-🔗 Live Demo: your-link  
-🔗 Repo: your-link
+</td>
+</tr>
+</table>
 
 ---
 
-## CentSight
-Financial Decision Simulator
+## ◈ Tech Stack
 
-Tech: Node.js • Express • React • Python
-
-Highlights:
-- Built ML-powered financial prediction engine
-- Integrated Node backend with Python inference
-- Designed scenario simulation dashboards
-
-🔗 Live Demo: your-link  
-🔗 Repo: your-link
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=java,spring,python,javascript,react,nodejs,express,postgresql,mongodb,tailwind,git,github&theme=dark"/>
+</p>
 
 ---
 
-# Tech Stack
+## ◈ GitHub Stats
 
-Java | Spring Boot | Python | React | PostgreSQL | Node.js | Git | ML
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=Mohammad-Adnan-Shakil&show_icons=true&theme=tokyonight&hide_border=true" width="48%"/>
+
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Mohammad-Adnan-Shakil&theme=tokyonight&hide_border=true" width="48%"/>
+</p>
 
 ---
 
-# Current Focus
+<div align="center">
 
-Building scalable backend systems, improving system design, and preparing for backend/full-stack internships (2026).
+<img src="https://capsule-render.vercel.app/api?type=waving&color=000000,8B0000,DC143C&height=120&section=footer"/>
+
+</div>
