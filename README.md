@@ -18,7 +18,7 @@
 
 <br/><br/>
 
-<img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&size=18&duration=3000&pause=900&color=DC143C&center=true&vCenter=true&width=800&lines=Spring+Boot+%7C+React+%7C+PostgreSQL+%7C+Python;Building+production-grade+backend+systems;Java+%E2%86%94+Python+ML+orchestration;JWT+Security+%7C+RBAC+%7C+System+Design;Targeting+Backend+%2F+Full-Stack+Internships+2026"/>
+<img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&size=18&duration=3000&pause=900&color=DC143C&center=true&vCenter=true&width=850&lines=Spring+Boot+%7C+React+%7C+PostgreSQL+%7C+Python;Production-grade+backend+systems;Java+%E2%86%94+Python+ML+orchestration;Audio+Deepfake+Detection+with+ML;JWT+Security+%7C+System+Design+%7C+Deployment"/>
 
 </div>
 
@@ -28,14 +28,13 @@
 
 Second-year CSE student at Presidency University, Bengaluru.
 
-I build **production-grade systems** from scratch:
-backend APIs, ML pipelines, cross-language architectures, and scalable full-stack apps.
+I build production-grade systems from scratch—backend APIs, machine learning pipelines, secure authentication systems, and full-stack applications designed for real-world engineering problems.
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Backend%20APIs-success?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/ML%20Pipelines-critical?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Backend%20Engineering-success?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Machine%20Learning-critical?style=for-the-badge"/>
   <img src="https://img.shields.io/badge/System%20Design-blue?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/JWT%20Security-black?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Production%20Deployment-black?style=for-the-badge"/>
 </p>
 
 ---
@@ -44,25 +43,23 @@ backend APIs, ML pipelines, cross-language architectures, and scalable full-stac
 
 <table>
 <tr>
-<td width="50%" valign="top">
+
+<td width="33%" valign="top">
 
 ## 🔴 DeltaBox
 
 ### F1 Intelligence Platform
 
-A full-stack AI system combining backend engineering + machine learning.
-
 ✅ Java → Python subprocess architecture
 ✅ 3-model ML ensemble
-✅ JWT + RBAC authentication
-✅ What-if simulation engine
+✅ JWT + RBAC security
+✅ What-if race simulation
 
 <br/>
 
 <img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=springboot"/>
 <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react"/>
 <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql"/>
-<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python"/>
 <img src="https://img.shields.io/badge/XGBoost-FF6600?style=flat-square"/>
 
 <br/><br/>
@@ -73,17 +70,40 @@ A full-stack AI system combining backend engineering + machine learning.
 
 </td>
 
-<td width="50%" valign="top">
+<td width="33%" valign="top">
+
+## 🔴 FakeOut-AI
+
+### Voice Deepfake Detection
+
+✅ Trained on 3000+ audio samples
+✅ Real vs fake classification
+✅ FastAPI inference backend
+✅ Production deployment
+
+<br/>
+
+<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python"/>
+<img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi"/>
+<img src="https://img.shields.io/badge/Scikit--Learn-F7931E?style=flat-square&logo=scikitlearn"/>
+
+<br/><br/>
+
+<a href="YOUR_FAKEOUT_REPO_LINK">
+  <img src="https://img.shields.io/badge/View_Project-B22222?style=for-the-badge"/>
+</a>
+
+</td>
+
+<td width="33%" valign="top">
 
 ## 🔴 CentSight
 
-### Financial Decision Simulator
+### Financial Simulation Platform
 
-ML-powered simulation platform for real-world financial forecasting.
-
-✅ Python model integration
+✅ ML-powered forecasting
+✅ Python + Node integration
 ✅ Scenario simulation engine
-✅ Real-time prediction system
 ✅ Full-stack deployment
 
 <br/>
@@ -91,7 +111,6 @@ ML-powered simulation platform for real-world financial forecasting.
 <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js"/>
 <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react"/>
 <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python"/>
-<img src="https://img.shields.io/badge/Scikit--Learn-F7931E?style=flat-square&logo=scikitlearn"/>
 
 <br/><br/>
 
@@ -100,6 +119,7 @@ ML-powered simulation platform for real-world financial forecasting.
 </a>
 
 </td>
+
 </tr>
 </table>
 
