@@ -20,7 +20,7 @@
 
 Second-year CSE student at Presidency University, Bengaluru.
 
-I build backend-first systems where the architecture is a deliberate decision, not a default. My flagship project, **DeltaBox**, runs a React frontend with a Groq-powered AI assistant, backed by a Java Spring Boot API that orchestrates a Python ML layer via subprocess execution — JWT + RBAC security built from scratch, no framework defaults.
+I build backend-first systems where the architecture is a deliberate decision, not a default. My flagship project, **DeltaBox**, is a full-stack F1 intelligence platform I architected and built independently — Spring Boot backend, React frontend with a Groq-powered "Delta Analyst" AI assistant, and a multi-model ML engine (XGBoost + Random Forest) orchestrated via Java↔Python subprocess execution, with JWT + RBAC built from scratch.
 
 I work fast, ship aggressively, and care about clean architecture.
 
@@ -35,16 +35,17 @@ I work fast, ship aggressively, and care about clean architecture.
 
 ## ◈ Featured Project
 
-### 🔴 DeltaBox — F1 Intelligence Platform
+### 🔴 DeltaBox — AI-Powered Formula 1 Intelligence Platform
 
-Full-stack F1 analytics platform: React dashboard with a Groq-powered "Delta Analyst" AI assistant on the frontend, backed by a Java Spring Boot API that orchestrates a Python ML layer via subprocess execution.
+Full-stack F1 analytics platform architected and built independently — Spring Boot backend, React frontend, multi-model ML engine, and PostgreSQL persistence, with a What-If simulation engine for modeling race scenarios.
 
 **Architecture decisions that matter:**
-- ✅ ProcessBuilder subprocess execution — Java → Python JSON pipeline, no external ML service dependency
-- ✅ Blended ensemble (Random Forest + XGBoost) retrained on 1,900+ rows of real data — **MAE 2.272, R² 0.623**
-- ✅ Inference optimized to **2.5–13ms per prediction**, **71ms** full application load time
-- ✅ JWT + RBAC security built from scratch — no Spring Security defaults
-- ✅ Groq-powered conversational AI assistant for natural-language telemetry and race analysis
+- ✅ Multi-model ML engine (XGBoost, Random Forest, blended ensemble) trained and validated on historical F1 race data — **79.6% Top-3 finishing-position accuracy**, **R² 0.62** on a held-out test set
+- ✅ Inference optimized to **13.4ms blended prediction latency** (XGBoost: 2.5ms, Random Forest: 10.9ms)
+- ✅ Java backend ↔ Python ML models via ProcessBuilder (JSON over STDIN/STDOUT) for real-time predictions, no external ML service dependency
+- ✅ What-If simulation engine — models race scenarios (weather, pit strategy, grid position) and predicts outcome changes
+- ✅ Custom JWT-based authentication and RBAC middleware built from scratch — no Spring Security defaults
+- ✅ Deployed full-stack application on Render
 
 ![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=springboot)
 ![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react)
@@ -53,7 +54,7 @@ Full-stack F1 analytics platform: React dashboard with a Groq-powered "Delta Ana
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python)
 ![JWT](https://img.shields.io/badge/JWT-000000?style=flat-square&logo=jsonwebtokens)
 
-**[Repo](https://github.com/Mohammad-Adnan-Shakil/DeltaBox)** · **[Live Demo](https://delta-box.vercel.app/dashboard)**
+**[Repo](https://github.com/Mohammad-Adnan-Shakil/deltabox)** · **[Live Demo](https://[RENDER_DEPLOY_URL])**
 
 ---
 
