@@ -10,7 +10,7 @@
 
 <br/>
 
-<img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&size=18&duration=3000&pause=900&color=DC143C&center=true&vCenter=true&width=850&lines=Spring+Boot+%7C+React+%7C+Postgres+%7C+Python+ML+orchestration;3-model+ensemble%3A+JWT+%2B+RBAC+from+scratch;Building+systems+that+decide%2C+not+just+display"/>
+<img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&size=18&duration=3000&pause=900&color=DC143C&center=true&vCenter=true&width=850&lines=Spring+Boot+%7C+React+%7C+Postgres+%7C+Python+ML+orchestration;Blended+ensemble%3A+JWT+%2B+RBAC+from+scratch;Building+systems+that+decide%2C+not+just+display"/>
 
 </div>
 
@@ -75,7 +75,7 @@ Dual-model ML ensemble (XGBoost + Random Forest) classifying real vs. AI-generat
 
 ## ◈ Tech Stack
 
-![Skills]([https://skillicons.dev/icons?i=java,spring,python,javascript,react,nodejs,express,postgresql,mongodb,tailwind,git,github&theme=dark])
+![Skills](https://skillicons.dev/icons?i=java,spring,python,javascript,react,nodejs,express,postgresql,mongodb,aws,tailwind,git,github&theme=dark)
 
 ---
 
