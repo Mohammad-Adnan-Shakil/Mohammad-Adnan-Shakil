@@ -75,7 +75,7 @@ Dual-model ML ensemble (XGBoost + Random Forest) classifying real vs. AI-generat
 
 ## ◈ Tech Stack
 
-![Skills](https://skillicons.dev/icons?i=java,spring,python,javascript,react,nodejs,express,postgresql,mongodb,tailwind,git,github&theme=dark)
+![Skills]([https://skillicons.dev/icons?i=java,spring,python,javascript,react,nodejs,express,postgresql,mongodb,tailwind,git,github&theme=dark])
 
 ---
 
