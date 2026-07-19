@@ -79,6 +79,28 @@ Multi-agent commute planning system for Bengaluru using Google ADK + Gemini 2.5 
 
 ---
 
+### 🕵️ Cypher — Autonomous Multi-Agent Job Intelligence System
+
+Fully autonomous multi-agent system that watches job boards, researches founders, drafts personalized outreach, tracks replies, and learns from approve/skip feedback — architected as a 6-node LangGraph pipeline across 5 specialized agents, requiring zero manual intervention.
+
+**Architecture decisions that matter:**
+- ✅ 5 agents (Opportunity Scout, Founder Researcher, Outreach Drafter, Tech Pulse, Reply Tracker) orchestrated via LangGraph, running fully unattended
+- ✅ Deployed via GitHub Actions cron scheduling — no server infrastructure, runs daily at 7am IST with zero manual trigger
+- ✅ Batched LLM scoring cut Groq API calls ~15x after hitting real production rate limits — diagnosed root cause (per-item calls vs. batch calls) and rearchitected under load
+- ✅ Feedback loop classifies opportunities into a fixed stack × location taxonomy so `cypher_memory` genuinely generalizes across approvals, instead of using inconsistent raw scraped text
+- ✅ Gmail OAuth2 integration (read + send scopes) for reply detection and outreach delivery
+- ✅ Full React dashboard (5 pages: Stats, Opportunities Kanban, Outreach Tracker, Memory, Hackathons) live on Vercel, backed by a FastAPI service on Render
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python)
+![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=flat-square)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql)
+![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react)
+
+**[Repo](https://github.com/Mohammad-Adnan-Shakil/Cypher)** · **[Live Dashboard](https://cypher-navy.vercel.app)**
+
+---
+
 ### 🎙️ FakeOut AI — Voice Deepfake Detection
 
 Dual-model ML ensemble (XGBoost + Random Forest) classifying real vs. AI-generated audio using wav2vec2 embeddings, 40 MFCC coefficients, and spectral features extracted via Librosa. FastAPI inference backend, React frontend. Built at FusionX Hackathon 2026 with Sultan Salauddin Ansari.
@@ -101,17 +123,6 @@ CockroachDB × AWS Hackathon submission (deadline Aug 19, 2026). Extends bengalu
 ![CockroachDB](https://img.shields.io/badge/CockroachDB-6933FF?style=flat-square)
 ![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonaws)
 ![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=flat-square)
-
----
-
-### 🕵️ Cypher — Personal Agentic Job Intelligence System
-Fully autonomous multi-agent system with persistent memory and a feedback loop. 5 specialized agents: Opportunity Scout, Founder Researcher, Outreach Drafter, Tech Pulse, Reply Tracker. Runs daily at 7am, delivers a Telegram digest, learns from your approvals/skips over time. React dashboard for full pipeline visibility.
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python)
-![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=flat-square)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql)
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonaws)
 
 ---
 
