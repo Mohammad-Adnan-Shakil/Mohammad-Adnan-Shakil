@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=8B0000,DC143C,000000&height=220&section=header&text=Mohammad%20Adnan%20Shakil&fontSize=42&fontColor=ffffff&fontAlignY=38&desc=Backend%20Engineer%20%E2%80%A2%20Full%20Stack%20%E2%82%AC2%20ML%20Systems&descAlignY=60&descSize=17&animation=fadeIn"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=8B0000,DC143C,000000&height=220&section=header&text=Mohammad%20Adnan%20Shakil&fontSize=42&fontColor=ffffff&fontAlignY=38&desc=Backend%20Engineer%20%E2%80%A2%20Full%20Stack%20%E2%80%A2%20ML%20Systems&descAlignY=60&descSize=17&animation=fadeIn"/>
 
 <br/>
 
@@ -10,7 +10,7 @@
 
 <br/>
 
-<img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&size=18&duration=3000&pause=900&color=DC143C&center=true&vCenter=true&width=850&lines=Spring+Boot+%7C+React+%7C+Postgres+%7C+Python+ML+orchestration;Blended+ensemble%3A+JWT+%2B+RBAC+from+scratch;Building+systems+that+decide%2C+not+just+display"/>
+<img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&size=18&duration=3000&pause=900&color=DC143C&center=true&vCenter=true&width=850&lines=Spring+Boot+%7C+React+%7C+Postgres+%7C+Python+ML+orchestration;Multi-agent+systems+%7C+LangGraph+%7C+Google+ADK;Building+systems+that+decide%2C+not+just+display"/>
 
 </div>
 
@@ -24,12 +24,14 @@ I build backend-first systems where the architecture is a deliberate decision, n
 
 I work fast, ship aggressively, and care about clean architecture.
 
-🔴 **Currently:** Software Engineering Intern at Dyslexia Reading Tutor AI, building a serverless voice-AI pipeline (AWS Lambda, DynamoDB, EventBridge) — and polishing DeltaBox for internship/SWE applications.
+🔴 **Previously:** Software Engineering Intern at Dyslexia Reading Tutor AI — built a production serverless voice-AI pipeline (HubSpot → AWS Lambda → ElevenLabs → DynamoDB → EventBridge → HubSpot sync), end-to-end verified in production.
+
+🔴 **Currently:** Building **Cypher** (personal agentic job intelligence system) + **commute-memory-agent** (CockroachDB × AWS Hackathon submission, Aug 2026).
 
 ![Backend Engineering](https://img.shields.io/badge/Backend%20Engineering-success?style=for-the-badge)
 ![ML Integration](https://img.shields.io/badge/ML%20Integration-critical?style=for-the-badge)
 ![System Design](https://img.shields.io/badge/System%20Design-blue?style=for-the-badge)
-![Open to Internships](https://img.shields.io/badge/Open%20to%20Internships-black?style=for-the-badge)
+![Open to Part-Time Roles](https://img.shields.io/badge/Open%20to%20Part--Time%20Roles-black?style=for-the-badge)
 
 ---
 
@@ -54,15 +56,32 @@ Full-stack F1 analytics platform architected and built independently — Spring 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python)
 ![JWT](https://img.shields.io/badge/JWT-000000?style=flat-square&logo=jsonwebtokens)
 
-**[Repo](https://github.com/Mohammad-Adnan-Shakil/deltabox)** · **[Live Demo](https://[RENDER_DEPLOY_URL])**
+**[Repo](https://github.com/Mohammad-Adnan-Shakil/deltabox)** · **[Live Demo](https://deltabox-2.onrender.com)**
 
 ---
 
 ## ◈ Other Projects
 
-### FakeOut AI — Voice Deepfake Detection
+### 🤖 bengaluru-commute-agent — Multi-Agent Commute Planning AI
 
-Dual-model ML ensemble (XGBoost + Random Forest) classifying real vs. AI-generated audio. 40 MFCC coefficients + spectral features extracted via Librosa. FastAPI inference backend, React frontend. Built at FusionX Hackathon 2026.
+Multi-agent commute planning system for Bengaluru using Google ADK + Gemini 2.5 Flash-Lite. Strict separation of concerns: orchestrator routes between route_agent (data only) and advisor_agent (decisions only). Real routing geometry via OpenRouteService, color-coded congestion map via React-Leaflet.
+
+- Shortlisted **Top 100** at Google AI Agent Builder Series 2026
+- Grand Finale at Google's Bengaluru office, August 8, 2026
+- Deployed: Backend on Render, Frontend on Vercel
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python)
+![Google ADK](https://img.shields.io/badge/Google_ADK-4285F4?style=flat-square&logo=google)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi)
+![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react)
+
+**[Repo](https://github.com/Mohammad-Adnan-Shakil/bengaluru-commute-agent)** · **[Live Demo](https://bengaluru-commute-agent.vercel.app)**
+
+---
+
+### 🎙️ FakeOut AI — Voice Deepfake Detection
+
+Dual-model ML ensemble (XGBoost + Random Forest) classifying real vs. AI-generated audio using wav2vec2 embeddings, 40 MFCC coefficients, and spectral features extracted via Librosa. FastAPI inference backend, React frontend. Built at FusionX Hackathon 2026 with Sultan Salauddin Ansari.
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi)
@@ -70,6 +89,29 @@ Dual-model ML ensemble (XGBoost + Random Forest) classifying real vs. AI-generat
 ![Librosa](https://img.shields.io/badge/Librosa-8B0000?style=flat-square)
 
 **[Repo](https://github.com/FuncLexa/FakeOut-AI)**
+
+---
+
+## ◈ In Active Development
+
+### 🪲 commute-memory-agent — Agentic Memory Layer for Bengaluru Commute Agent
+CockroachDB × AWS Hackathon submission (deadline Aug 19, 2026). Extends bengaluru-commute-agent with persistent agentic memory via CockroachDB Distributed Vector Indexing + MCP Server — the agent remembers past commutes, preferred routes, and outcome history to improve recommendations over time.
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python)
+![CockroachDB](https://img.shields.io/badge/CockroachDB-6933FF?style=flat-square)
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonaws)
+![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=flat-square)
+
+---
+
+### 🕵️ Cypher — Personal Agentic Job Intelligence System
+Fully autonomous multi-agent system with persistent memory and a feedback loop. 5 specialized agents: Opportunity Scout, Founder Researcher, Outreach Drafter, Tech Pulse, Reply Tracker. Runs daily at 7am, delivers a Telegram digest, learns from your approvals/skips over time. React dashboard for full pipeline visibility.
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python)
+![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=flat-square)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql)
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonaws)
 
 ---
 
