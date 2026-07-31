@@ -40,7 +40,7 @@ I architect and ship full production systems across the entire stack: Spring Boo
 
 **Previously:** Software Engineering Intern at Dyslexia Reading Tutor AI — designed and shipped a production serverless voice-AI pipeline on AWS (Lambda → ElevenLabs → DynamoDB → EventBridge → HubSpot), end-to-end verified in production within 3 weeks of joining.
 
-**Currently:** Building LexMind (fine-tuned LLM on Indian legal corpus via QLoRA) and commute-memory-agent (CockroachDB × AWS Hackathon, August 2026).
+**Currently:** Building Jurix (fine-tuned LLM on Indian legal corpus via QLoRA) and commute-memory-agent (CockroachDB × AWS Hackathon, August 2026).
 
 **Open To:** Part-time Backend Engineering · ML Engineering · Agentic AI roles at AI-first startups
 
@@ -148,12 +148,35 @@ Multi-agent commute planning system for Bengaluru with strict separation of conc
 |---|---|
 | Stack | Python · Google ADK · Gemini 2.5 Flash-Lite · FastAPI · React · OpenRouteService · React-Leaflet |
 | Architecture | Orchestrator → route_agent (data only) → advisor_agent (decisions only) |
-| Recognition | Top 100 · Google AI Agent Builder Series 2026 (HiDevs × Google for Developers) |
+| Recognition | Top 150 · Google AI Agent Builder Series 2026 (HiDevs × Google for Developers) |
 | Integrity | Honest fallback — agent explicitly states when it lacks corridor data (no hallucination) |
 | Deployment | Backend: Render · Frontend: Vercel |
 | Repository | [github.com/Mohammad-Adnan-Shakil/bengaluru-commute-agent](https://github.com/Mohammad-Adnan-Shakil/bengaluru-commute-agent) |
 
 **Key architectural decision:** Strict agent role separation — route_agent is instructed to never give opinions, advisor_agent never fetches data. This prevents model drift, makes debugging deterministic, and mirrors production multi-agent design patterns.
+
+</details>
+
+---
+
+<details>
+<summary><b>🏎️ Pitwall — Agentic RAG System for F1 Race Intelligence</b></summary>
+
+<br/>
+
+Agentic RAG system powering DeltaBox's AI intelligence layer — retrieves real F1 race data from a pgvector store, evaluates retrieval sufficiency before answering, and measures output quality with RAGAS metrics.
+
+| Attribute | Details |
+|---|---|
+| Stack | Python · LangGraph · FastAPI · pgvector · PostgreSQL · Groq · RAGAS · React |
+| Architecture | Agent decides whether to retrieve or answer from context — not a fixed pipeline |
+| Retrieval | pgvector similarity search over historical F1 race data, telemetry, and strategy documents |
+| Evaluation | RAGAS: faithfulness · answer relevance · context precision · hallucination rate |
+| Integration | FastAPI service called from DeltaBox's Spring Boot backend |
+| Deployment | Live at pit-wall-lemon.vercel.app |
+| Repository | [github.com/Mohammad-Adnan-Shakil/PitWall](https://github.com/Mohammad-Adnan-Shakil/PitWall) |
+
+**Key architectural decision:** The agent evaluates retrieval sufficiency before generating — if retrieved chunks don't adequately cover the question, it reformulates the query and retrieves again rather than hallucinating. This is the pattern that separates production RAG from tutorial RAG.
 
 </details>
 
@@ -201,7 +224,7 @@ Extends bengaluru-commute-agent with persistent agentic memory via CockroachDB �
 ---
 
 <details>
-<summary><b>⚖️ LexMind — Fine-Tuned LLM for Indian Legal Intelligence</b></summary>
+<summary><b>⚖️ Jurix — Fine-Tuned LLM for Indian Legal Intelligence</b></summary>
 
 <br/>
 
@@ -213,7 +236,7 @@ Domain-specific LLM fine-tuned on Indian court judgements via QLoRA — with an 
 | Data Source | Indian Kanoon — 20M+ court judgements, acts, and legal precedents |
 | Method | QLoRA (4-bit quantization + LoRA adapters) — fine-tuning on consumer GPU |
 | Evaluation | RAGAS: faithfulness · answer relevance · context precision · hallucination rate |
-| Goal | Published comparison: LexMind vs. Mistral base vs. GPT-4o on Indian legal benchmark |
+| Goal | Published comparison: Jurix vs. Mistral base vs. GPT-4o on Indian legal benchmark |
 | Status | 🟡 Learning phase — implementation starting post-CockroachDB hackathon |
 
 </details>
@@ -247,7 +270,7 @@ Designed and shipped a production serverless voice-AI pipeline automating outbou
 
 | Recognition | Details |
 |---|---|
-| 🏆 Google AI Agent Builder Series 2026 | Top 100 shortlisted out of 1,500+ teams · HiDevs × Google for Developers |
+| 🏆 Google AI Agent Builder Series 2026 | Ranked Top 150 · HiDevs × Google for Developers |
 | 🚀 Production Internship | Shipped end-to-end production AWS voice-AI pipeline within 3 weeks of joining |
 | 🎯 FusionX Hackathon 2026 | Top score in first technical evaluation round for FakeOut AI deepfake detection |
 | 📚 Academic | 8.15 CGPA while independently architecting and deploying 5+ full-stack AI platforms |
@@ -303,14 +326,16 @@ Designed and shipped a production serverless voice-AI pipeline automating outbou
 
 ```yaml
 learning:
-  - QLoRA fine-tuning on Indian legal corpus (LexMind)
+  - QLoRA fine-tuning on Indian legal corpus (Jurix)
   - RAGAS evaluation frameworks for production RAG systems
   - NeetCode 150 DSA — daily practice, starting August 2026
 
 building:
   - commute-memory-agent (CockroachDB × AWS Hackathon — Aug 19 deadline)
-  - LexMind — domain fine-tuned LLM for Indian legal Q&A
-  - Pitwall — agentic RAG layer for DeltaBox (Delta Analyst v2)
+  - Jurix — domain fine-tuned LLM for Indian legal Q&A
+
+shipped:
+  - Pitwall — agentic RAG system for F1 intelligence (live at pit-wall-lemon.vercel.app)
 
 exploring:
   - LangGraph advanced patterns (multi-agent memory sharing)
