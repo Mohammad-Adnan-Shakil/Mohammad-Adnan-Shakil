@@ -40,7 +40,7 @@ I architect and ship full production systems across the entire stack: Spring Boo
 
 **Previously:** Software Engineering Intern at Dyslexia Reading Tutor AI — designed and shipped a production serverless voice-AI pipeline on AWS (Lambda → ElevenLabs → DynamoDB → EventBridge → HubSpot), end-to-end verified in production within 3 weeks of joining.
 
-**Currently:** Building Jurix (fine-tuned LLM on Indian legal corpus via QLoRA) and commute-memory-agent (CockroachDB × AWS Hackathon, August 2026).
+**Currently:** Building commute-memory-agent (CockroachDB × AWS Hackathon, August 2026) and Jurix (fine-tuned LLM on Indian legal corpus via QLoRA).
 
 **Open To:** Part-time Backend Engineering · ML Engineering · Agentic AI roles at AI-first startups
 
@@ -114,6 +114,29 @@ Full-stack F1 analytics platform independently architected across backend, front
 ---
 
 <details>
+<summary><b>🏎️ Pitwall — Agentic RAG System for F1 Race Intelligence</b></summary>
+
+<br/>
+
+Agentic RAG system built as a standalone intelligence layer — retrieves real F1 race data from a pgvector store, evaluates retrieval sufficiency before answering, and measures output quality with RAGAS metrics.
+
+| Attribute | Details |
+|---|---|
+| Stack | Python · LangGraph · FastAPI · pgvector · PostgreSQL · Groq · RAGAS · React |
+| Architecture | Agent decides whether to retrieve or answer from context — not a fixed pipeline |
+| Retrieval | pgvector similarity search over historical F1 race data, telemetry, and strategy documents |
+| Evaluation | RAGAS: faithfulness · answer relevance · context precision · hallucination rate |
+| Integration | FastAPI service callable from DeltaBox's Spring Boot backend |
+| Deployment | Live at pit-wall-lemon.vercel.app |
+| Repository | [github.com/Mohammad-Adnan-Shakil/PitWall](https://github.com/Mohammad-Adnan-Shakil/PitWall) |
+
+**Key architectural decision:** The agent evaluates retrieval sufficiency before generating — if retrieved chunks don't adequately cover the question, it reformulates the query and retrieves again rather than hallucinating. This is what separates production RAG from tutorial RAG.
+
+</details>
+
+---
+
+<details>
 <summary><b>🕵️ Cypher — Autonomous Multi-Agent Job Intelligence System</b></summary>
 
 <br/>
@@ -148,35 +171,12 @@ Multi-agent commute planning system for Bengaluru with strict separation of conc
 |---|---|
 | Stack | Python · Google ADK · Gemini 2.5 Flash-Lite · FastAPI · React · OpenRouteService · React-Leaflet |
 | Architecture | Orchestrator → route_agent (data only) → advisor_agent (decisions only) |
-| Recognition | Top 150 · Google AI Agent Builder Series 2026 (HiDevs × Google for Developers) |
-| Integrity | Honest fallback — agent explicitly states when it lacks corridor data (no hallucination) |
+| Recognition | Ranked 144th · Google AI Agent Builder Series 2026 (HiDevs × Google for Developers) |
+| Integrity | Honest fallback — agent explicitly states when it lacks corridor data, no hallucination |
 | Deployment | Backend: Render · Frontend: Vercel |
 | Repository | [github.com/Mohammad-Adnan-Shakil/bengaluru-commute-agent](https://github.com/Mohammad-Adnan-Shakil/bengaluru-commute-agent) |
 
 **Key architectural decision:** Strict agent role separation — route_agent is instructed to never give opinions, advisor_agent never fetches data. This prevents model drift, makes debugging deterministic, and mirrors production multi-agent design patterns.
-
-</details>
-
----
-
-<details>
-<summary><b>🏎️ Pitwall — Agentic RAG System for F1 Race Intelligence</b></summary>
-
-<br/>
-
-Agentic RAG system powering DeltaBox's AI intelligence layer — retrieves real F1 race data from a pgvector store, evaluates retrieval sufficiency before answering, and measures output quality with RAGAS metrics.
-
-| Attribute | Details |
-|---|---|
-| Stack | Python · LangGraph · FastAPI · pgvector · PostgreSQL · Groq · RAGAS · React |
-| Architecture | Agent decides whether to retrieve or answer from context — not a fixed pipeline |
-| Retrieval | pgvector similarity search over historical F1 race data, telemetry, and strategy documents |
-| Evaluation | RAGAS: faithfulness · answer relevance · context precision · hallucination rate |
-| Integration | FastAPI service called from DeltaBox's Spring Boot backend |
-| Deployment | Live at pit-wall-lemon.vercel.app |
-| Repository | [github.com/Mohammad-Adnan-Shakil/PitWall](https://github.com/Mohammad-Adnan-Shakil/PitWall) |
-
-**Key architectural decision:** The agent evaluates retrieval sufficiency before generating — if retrieved chunks don't adequately cover the question, it reformulates the query and retrieves again rather than hallucinating. This is the pattern that separates production RAG from tutorial RAG.
 
 </details>
 
@@ -213,11 +213,11 @@ Extends bengaluru-commute-agent with persistent agentic memory via CockroachDB �
 
 | Attribute | Details |
 |---|---|
-| Stack | Python · CockroachDB · AWS Lambda · LangGraph · Distributed Vector Indexing · MCP Server |
+| Stack | Python · CockroachDB · AWS · LangGraph · Distributed Vector Indexing · MCP Server |
 | Hackathon | CockroachDB × AWS — "Build with Agentic Memory" · Deadline: August 19, 2026 |
 | Memory Types | Conversation history (transactional) · Route preference embeddings (vector) · Outcome tracking |
 | Mandatory Tools | CockroachDB MCP Server + Distributed Vector Indexing |
-| Status | 🔴 Active build — submitting August 18, 2026 |
+| Status | 🔴 Active build |
 
 </details>
 
@@ -228,7 +228,7 @@ Extends bengaluru-commute-agent with persistent agentic memory via CockroachDB �
 
 <br/>
 
-Domain-specific LLM fine-tuned on Indian court judgements via QLoRA — with an agentic RAG layer and RAGAS evaluation comparing fine-tuned vs. general model performance on Indian legal Q&A.
+Domain-specific LLM fine-tuned on Indian court judgements via QLoRA — with an agentic RAG layer and RAGAS evaluation comparing fine-tuned vs. base model performance on Indian legal Q&A.
 
 | Attribute | Details |
 |---|---|
@@ -237,7 +237,7 @@ Domain-specific LLM fine-tuned on Indian court judgements via QLoRA — with an 
 | Method | QLoRA (4-bit quantization + LoRA adapters) — fine-tuning on consumer GPU |
 | Evaluation | RAGAS: faithfulness · answer relevance · context precision · hallucination rate |
 | Goal | Published comparison: Jurix vs. Mistral base vs. GPT-4o on Indian legal benchmark |
-| Status | 🟡 Learning phase — implementation starting post-CockroachDB hackathon |
+| Status | 🟡 Theory phase — implementation starting post-CockroachDB hackathon |
 
 </details>
 
@@ -270,8 +270,8 @@ Designed and shipped a production serverless voice-AI pipeline automating outbou
 
 | Recognition | Details |
 |---|---|
-| 🏆 Google AI Agent Builder Series 2026 | Ranked Top 150 · HiDevs × Google for Developers |
 | 🚀 Production Internship | Shipped end-to-end production AWS voice-AI pipeline within 3 weeks of joining |
+| 🏆 Google AI Agent Builder Series 2026 | Ranked 144th · HiDevs × Google for Developers |
 | 🎯 FusionX Hackathon 2026 | Top score in first technical evaluation round for FakeOut AI deepfake detection |
 | 📚 Academic | 8.15 CGPA while independently architecting and deploying 5+ full-stack AI platforms |
 | 🔬 Open Source | PR #3507 merged to topoteretes/cognee (23k ⭐) — mem0→Cognee migration example |
@@ -328,14 +328,15 @@ Designed and shipped a production serverless voice-AI pipeline automating outbou
 learning:
   - QLoRA fine-tuning on Indian legal corpus (Jurix)
   - RAGAS evaluation frameworks for production RAG systems
-  - NeetCode 150 DSA — daily practice, starting August 2026
+  - NeetCode 150 DSA — daily practice
 
 building:
   - commute-memory-agent (CockroachDB × AWS Hackathon — Aug 19 deadline)
   - Jurix — domain fine-tuned LLM for Indian legal Q&A
 
 shipped:
-  - Pitwall — agentic RAG system for F1 intelligence (live at pit-wall-lemon.vercel.app)
+  - Pitwall — agentic RAG system for F1 intelligence (pit-wall-lemon.vercel.app)
+  - Cypher — autonomous 5-agent job intelligence system (cypher-navy.vercel.app)
 
 exploring:
   - LangGraph advanced patterns (multi-agent memory sharing)
