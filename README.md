@@ -40,7 +40,7 @@ I architect and ship full production systems across the entire stack: Spring Boo
 
 **Previously:** Software Engineering Intern at Dyslexia Reading Tutor AI — designed and shipped a production serverless voice-AI pipeline on AWS (Lambda → ElevenLabs → DynamoDB → EventBridge → HubSpot), end-to-end verified in production within 3 weeks of joining.
 
-**Currently:** Building commute-memory-agent (CockroachDB × AWS Hackathon, August 2026) and Jurix (fine-tuned LLM on Indian legal corpus via QLoRA).
+**Currently:** Building Jurix (fine-tuned LLM on Indian legal corpus via QLoRA) — shipped commute-memory-agent at CockroachDB × AWS Hackathon (August 2026).
 
 **Open To:** Part-time Backend Engineering · ML Engineering · Agentic AI roles at AI-first startups
 
@@ -77,7 +77,7 @@ I architect and ship full production systems across the entire stack: Spring Boo
 | Domain | Proficiency | Details |
 |---|---|---|
 | Multi-Agent Systems | ████████░░ Advanced | Google ADK, LangGraph, orchestrator patterns, strict separation of concerns |
-| LLM Fine-Tuning | ███████░░░ Intermediate | QLoRA, LoRA, PEFT, SFTTrainer, HuggingFace ecosystem |
+| LLM Fine-Tuning | ████████░░ Advanced | QLoRA, LoRA, PEFT, SFTTrainer, HuggingFace ecosystem |
 | Agentic RAG | ███████░░░ Intermediate | pgvector, retrieval chains, RAGAS evaluation, faithfulness metrics |
 | Classical ML | ████████░░ Advanced | XGBoost, Random Forest, ensemble methods, validation pipelines |
 | Serverless AI Pipelines | █████████░ Advanced | AWS Lambda, API Gateway, DynamoDB, EventBridge, voice-AI orchestration |
@@ -137,6 +137,26 @@ Agentic RAG system built as a standalone intelligence layer — retrieves real F
 ---
 
 <details>
+<summary><b>🧠 Jurix — Fine-Tuned LLM for Indian Legal Intelligence</b></summary>
+
+<br/>
+
+Domain-specific LLM fine-tuned on Indian court judgements via QLoRA — with an agentic RAG layer and RAGAS evaluation comparing fine-tuned vs. base model performance on Indian legal Q&A.
+
+| Attribute | Details |
+|---|---|
+| Stack | Python · Mistral 7B / Llama 3.1 8B · QLoRA · PEFT · HuggingFace · pgvector · FastAPI · React |
+| Data Source | Indian Kanoon — 20M+ court judgements, acts, and legal precedents |
+| Method | QLoRA (4-bit quantization + LoRA adapters) — fine-tuning on consumer GPU |
+| Evaluation | RAGAS: faithfulness · answer relevance · context precision · hallucination rate |
+| Goal | Published comparison: Jurix vs. Mistral base vs. GPT-4o on Indian legal benchmark |
+| Status | ✅ Shipped — August 2026 |
+
+</details>
+
+---
+
+<details>
 <summary><b>🕵️ Cypher — Autonomous Multi-Agent Job Intelligence System</b></summary>
 
 <br/>
@@ -183,6 +203,26 @@ Multi-agent commute planning system for Bengaluru with strict separation of conc
 ---
 
 <details>
+<summary><b>🪲 commute-memory-agent — Agentic Memory Layer (CockroachDB × AWS Hackathon)</b></summary>
+
+<br/>
+
+Extends bengaluru-commute-agent with persistent agentic memory via CockroachDB — the agent remembers past commutes, preferred routes, and outcome history, improving recommendations over time.
+
+| Attribute | Details |
+|---|---|
+| Stack | Python · CockroachDB · AWS · LangGraph · Distributed Vector Indexing · MCP Server |
+| Hackathon | CockroachDB × AWS — "Build with Agentic Memory" · August 2026 |
+| Memory Types | Conversation history (transactional) · Route preference embeddings (vector) · Outcome tracking |
+| Mandatory Tools | CockroachDB MCP Server + Distributed Vector Indexing |
+| Status | ✅ Shipped — submitted August 2026 |
+| Repository | [github.com/Mohammad-Adnan-Shakil/commute-memory-agent](https://github.com/Mohammad-Adnan-Shakil/commute-memory-agent) |
+
+</details>
+
+---
+
+<details>
 <summary><b>🎙️ FakeOut AI — Voice Deepfake Detection System</b></summary>
 
 <br/>
@@ -197,47 +237,6 @@ Dual-model ML ensemble classifying real vs. AI-generated audio using wav2vec2 em
 | Training | 3,000+ labeled audio samples · 80/20 split · StandardScaler normalization |
 | Event | FusionX Hackathon 2026 — top score in first technical evaluation round |
 | Repository | [github.com/FuncLexa/FakeOut-AI](https://github.com/FuncLexa/FakeOut-AI) |
-
-</details>
-
----
-
-## ◈ In Production / Active Development
-
-<details>
-<summary><b>🪲 commute-memory-agent — Agentic Memory Layer (CockroachDB × AWS Hackathon)</b></summary>
-
-<br/>
-
-Extends bengaluru-commute-agent with persistent agentic memory via CockroachDB — the agent remembers past commutes, preferred routes, and outcome history, improving recommendations over time.
-
-| Attribute | Details |
-|---|---|
-| Stack | Python · CockroachDB · AWS · LangGraph · Distributed Vector Indexing · MCP Server |
-| Hackathon | CockroachDB × AWS — "Build with Agentic Memory" · Deadline: August 19, 2026 |
-| Memory Types | Conversation history (transactional) · Route preference embeddings (vector) · Outcome tracking |
-| Mandatory Tools | CockroachDB MCP Server + Distributed Vector Indexing |
-| Status | 🔴 Active build |
-
-</details>
-
----
-
-<details>
-<summary><b>⚖️ Jurix — Fine-Tuned LLM for Indian Legal Intelligence</b></summary>
-
-<br/>
-
-Domain-specific LLM fine-tuned on Indian court judgements via QLoRA — with an agentic RAG layer and RAGAS evaluation comparing fine-tuned vs. base model performance on Indian legal Q&A.
-
-| Attribute | Details |
-|---|---|
-| Stack | Python · Mistral 7B / Llama 3.1 8B · QLoRA · PEFT · HuggingFace · pgvector · FastAPI · React |
-| Data Source | Indian Kanoon — 20M+ court judgements, acts, and legal precedents |
-| Method | QLoRA (4-bit quantization + LoRA adapters) — fine-tuning on consumer GPU |
-| Evaluation | RAGAS: faithfulness · answer relevance · context precision · hallucination rate |
-| Goal | Published comparison: Jurix vs. Mistral base vs. GPT-4o on Indian legal benchmark |
-| Status | 🟡 Theory phase — implementation starting post-CockroachDB hackathon |
 
 </details>
 
@@ -273,7 +272,7 @@ Designed and shipped a production serverless voice-AI pipeline automating outbou
 | 🚀 Production Internship | Shipped end-to-end production AWS voice-AI pipeline within 3 weeks of joining |
 | 🏆 Google AI Agent Builder Series 2026 | Ranked 144th · HiDevs × Google for Developers |
 | 🎯 FusionX Hackathon 2026 | Top score in first technical evaluation round for FakeOut AI deepfake detection |
-| 📚 Academic | 8.15 CGPA while independently architecting and deploying 5+ full-stack AI platforms |
+| 📚 Academic | 8.15 CGPA while independently architecting and deploying 6+ full-stack AI platforms |
 | 🔬 Open Source | PR #3507 merged to topoteretes/cognee (23k ⭐) — mem0→Cognee migration example |
 | 🏗️ Build with TRAE Hackathon | 5th place — CentSight AI financial decision simulator |
 
@@ -325,23 +324,23 @@ Designed and shipped a production serverless voice-AI pipeline automating outbou
 ## ◈ Current Focus
 
 ```yaml
-learning:
-  - QLoRA fine-tuning on Indian legal corpus (Jurix)
-  - RAGAS evaluation frameworks for production RAG systems
-  - NeetCode 150 DSA — daily practice
-
-building:
-  - commute-memory-agent (CockroachDB × AWS Hackathon — Aug 19 deadline)
-  - Jurix — domain fine-tuned LLM for Indian legal Q&A
-
 shipped:
+  - Jurix — fine-tuned LLM for Indian legal Q&A (QLoRA, RAGAS evaluated)
+  - commute-memory-agent — agentic memory via CockroachDB (CockroachDB × AWS Hackathon)
   - Pitwall — agentic RAG system for F1 intelligence (pit-wall-lemon.vercel.app)
   - Cypher — autonomous 5-agent job intelligence system (cypher-navy.vercel.app)
 
+building:
+  - Personal project analytics dashboard — monitoring all deployed systems
+  - CV/computer vision project — scoped tight, specific metric, 2-3 weeks
+
+learning:
+  - NeetCode 150 DSA — daily practice, target December 2026
+  - System design — 1 ByteByteGo video/week
+
 exploring:
+  - Computer vision (next project domain)
   - LangGraph advanced patterns (multi-agent memory sharing)
-  - CockroachDB Distributed Vector Indexing
-  - HuggingFace PEFT + trl ecosystem
 
 open_to:
   - Part-time ML Engineering roles
