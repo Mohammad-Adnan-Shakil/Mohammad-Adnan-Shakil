@@ -10,7 +10,7 @@
 
 ![Location](https://img.shields.io/badge/📍_Bengaluru-India-DC143C?style=flat-square)
 ![University](https://img.shields.io/badge/Presidency_University-B.Tech_CSE_2028-8B0000?style=flat-square)
-![CGPA](https://img.shields.io/badge/CGPA-8.15%2F10-DC143C?style=flat-square)
+![CGPA](https://img.shields.io/badge/CGPA-7.99%2F10-DC143C?style=flat-square)
 ![Status](https://img.shields.io/badge/Open_To-Part--Time_Roles-success?style=flat-square)
 
 <br/>
@@ -40,7 +40,7 @@ I architect and ship full production systems across the entire stack: Spring Boo
 
 **Previously:** Software Engineering Intern at Dyslexia Reading Tutor AI — designed and shipped a production serverless voice-AI pipeline on AWS (Lambda → ElevenLabs → DynamoDB → EventBridge → HubSpot), end-to-end verified in production within 3 weeks of joining.
 
-**Currently:** Building Jurix (fine-tuned LLM on Indian legal corpus via QLoRA) — shipped commute-memory-agent at CockroachDB × AWS Hackathon (August 2026).
+**Currently:** Building Crater (YOLOv8 road damage detection for Indian roads) and grinding NeetCode 150 daily.
 
 **Open To:** Part-time Backend Engineering · ML Engineering · Agentic AI roles at AI-first startups
 
@@ -61,6 +61,12 @@ I architect and ship full production systems across the entire stack: Spring Boo
 **Backend & Databases**
 
 ![Skills](https://skillicons.dev/icons?i=spring,nodejs,express,fastapi,postgresql,mongodb&theme=dark)
+
+**Databases (Extended)**
+
+![NeonDB](https://img.shields.io/badge/NeonDB-00E699?style=flat-square&logo=neon&logoColor=black)
+![CockroachDB](https://img.shields.io/badge/CockroachDB-6933FF?style=flat-square&logo=cockroachlabs&logoColor=white)
+![pgvector](https://img.shields.io/badge/pgvector-PostgreSQL-336791?style=flat-square&logo=postgresql&logoColor=white)
 
 **Cloud, DevOps & Tooling**
 
@@ -83,6 +89,7 @@ I architect and ship full production systems across the entire stack: Spring Boo
 | Serverless AI Pipelines | █████████░ Advanced | AWS Lambda, API Gateway, DynamoDB, EventBridge, voice-AI orchestration |
 | LLM Integration | ████████░░ Advanced | Groq, Gemini, ElevenLabs, OpenRouteService, tool-calling agents |
 | Audio ML | ██████░░░░ Intermediate | wav2vec2, MFCC, Librosa, deepfake detection ensembles |
+| Computer Vision | ███████░░░ Intermediate | YOLOv8, object detection, mAP evaluation, real-time inference |
 
 </div>
 
@@ -242,6 +249,29 @@ Dual-model ML ensemble classifying real vs. AI-generated audio using wav2vec2 em
 
 ---
 
+## ◈ Active Build
+
+<details>
+<summary><b>🚧 Crater — Civic Road Damage Detection for Indian Roads</b></summary>
+
+<br/>
+
+Real-time road damage detection and civic reporting platform. Citizens point their mobile camera at a road — YOLOv8 detects potholes, cracks, and patching in real-time. One tap reports damage with GPS coordinates to a PostgreSQL database. BBMP admins manage repairs via a protected dashboard.
+
+| Attribute | Details |
+|---|---|
+| Stack | Python · YOLOv8s · FastAPI · NeonDB · PostGIS · React · WebRTC · React-Leaflet · JWT |
+| Dataset | RDD2022 — India subset · pothole · longitudinal crack · transverse crack · alligator crack · patching |
+| Training | YOLOv8s on RTX 4050 6GB — fine-tuned on Indian road data |
+| Citizen Side | WebRTC live camera · canvas bounding box overlay · GPS capture · one-tap report |
+| Admin Side | JWT + RBAC · React-Leaflet damage map · contractor assignment · repair lifecycle |
+| Metric | mAP@50 per damage class on held-out test set + inference latency ms/frame |
+| Status | 🔴 Active build |
+
+</details>
+
+---
+
 ## ◈ Experience
 
 **Software Engineering Intern — Backend & AI Systems**
@@ -272,7 +302,7 @@ Designed and shipped a production serverless voice-AI pipeline automating outbou
 | 🚀 Production Internship | Shipped end-to-end production AWS voice-AI pipeline within 3 weeks of joining |
 | 🏆 Google AI Agent Builder Series 2026 | Ranked 144th · HiDevs × Google for Developers |
 | 🎯 FusionX Hackathon 2026 | Top score in first technical evaluation round for FakeOut AI deepfake detection |
-| 📚 Academic | 8.15 CGPA while independently architecting and deploying 6+ full-stack AI platforms |
+| 📚 Academic | 7.99 CGPA while independently architecting and deploying 7+ full-stack AI platforms |
 | 🔬 Open Source | PR #3507 merged to topoteretes/cognee (23k ⭐) — mem0→Cognee migration example |
 | 🏗️ Build with TRAE Hackathon | 5th place — CentSight AI financial decision simulator |
 
@@ -324,23 +354,22 @@ Designed and shipped a production serverless voice-AI pipeline automating outbou
 ## ◈ Current Focus
 
 ```yaml
-shipped:
-  - Jurix — fine-tuned LLM for Indian legal Q&A (QLoRA, RAGAS evaluated)
-  - commute-memory-agent — agentic memory via CockroachDB (CockroachDB × AWS Hackathon)
-  - Pitwall — agentic RAG system for F1 intelligence (pit-wall-lemon.vercel.app)
-  - Cypher — autonomous 5-agent job intelligence system (cypher-navy.vercel.app)
-
 building:
-  - Personal project analytics dashboard — monitoring all deployed systems
-  - CV/computer vision project — scoped tight, specific metric, 2-3 weeks
+  - Crater — YOLOv8 road damage detection for Indian roads
+      citizen mobile camera → real-time detection → GPS report → admin dashboard
+      dataset: RDD2022 India subset · stack: FastAPI + NeonDB + React + WebRTC
 
-learning:
-  - NeetCode 150 DSA — daily practice, target December 2026
-  - System design — 1 ByteByteGo video/week
+grinding:
+  - NeetCode 150 — 1 problem/day weekdays, 2 on weekends
+      target: complete by December 2026
+      then: company-wise practice strategy with review session
+  - System design — 1 ByteByteGo video/week (light now, heavy from 6th sem)
 
-exploring:
-  - Computer vision (next project domain)
-  - LangGraph advanced patterns (multi-agent memory sharing)
+shipped:
+  - Jurix — fine-tuned LLM on Indian legal corpus (QLoRA, RAGAS evaluated)
+  - commute-memory-agent — agentic memory via CockroachDB × AWS Hackathon
+  - Pitwall — agentic RAG for F1 intelligence (pit-wall-lemon.vercel.app)
+  - Cypher — autonomous 5-agent job intelligence (cypher-navy.vercel.app)
 
 open_to:
   - Part-time ML Engineering roles
