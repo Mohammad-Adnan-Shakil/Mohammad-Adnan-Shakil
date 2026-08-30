@@ -4,7 +4,7 @@
 
 <br/>
 
-<img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&size=16&duration=3000&pause=900&color=DC143C&center=true&vCenter=true&width=850&lines=Building+systems+that+decide%2C+not+just+display;Spring+Boot+%7C+React+%7C+PostgreSQL+%7C+Python+ML;Multi-agent+AI+%7C+LangGraph+%7C+Google+ADK+%7C+LLM+Fine-tuning;Agentic+RAG+%7C+QLoRA+%7C+AWS+Serverless+%7C+FastAPI"/>
+<img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&size=16&duration=3000&pause=900&color=DC143C&center=true&vCenter=true&width=850&lines=Building+systems+that+decide%2C+not+just+display;Spring+Boot+%7C+React+%7C+PostgreSQL+%7C+Python+ML;Multi-agent+AI+%7C+LangGraph+%7C+Google+ADK+%7C+LLM+Fine-tuning;Agentic+RAG+%7C+QLoRA+%7C+AWS+Serverless+%7C+FastAPI;EfficientNet+%7C+Grad-CAM+%7C+MATLAB+%7C+Medical+AI"/>
 
 <br/>
 
@@ -34,13 +34,13 @@
 
 <img align="right" width="300" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Mohammad-Adnan-Shakil&layout=compact&theme=dark&hide_border=true&title_color=DC143C&icon_color=DC143C"/>
 
-Second-year Computer Science Engineering student at Presidency University, Bengaluru — building backend-first AI systems where every architectural decision is deliberate, not default.
+Third-year Computer Science Engineering student at Presidency University, Bengaluru — building backend-first AI systems where every architectural decision is deliberate, not default.
 
-I architect and ship full production systems across the entire stack: Spring Boot backends with Python ML pipelines via subprocess orchestration, multi-agent LangGraph systems with persistent memory, serverless AWS pipelines, and fine-tuned domain-specific LLMs. I work fast, debug deep, and care about clean architecture over tutorial-level work.
+I architect and ship full production systems across the entire stack: Spring Boot backends with Python ML pipelines via subprocess orchestration, multi-agent LangGraph systems with persistent memory, serverless AWS pipelines, fine-tuned domain-specific LLMs, and medical AI with explainability layers. I work fast, debug deep, and care about clean architecture over tutorial-level work.
 
 **Previously:** Software Engineering Intern at Dyslexia Reading Tutor AI — designed and shipped a production serverless voice-AI pipeline on AWS (Lambda → ElevenLabs → DynamoDB → EventBridge → HubSpot), end-to-end verified in production within 3 weeks of joining.
 
-**Currently:** Building Crater (YOLOv8 road damage detection for Indian roads) and grinding NeetCode 150 daily.
+**Currently:** Building DRISHTI — Explainable AI for Diabetic Retinopathy Screening in Rural India (SIH 2026). EfficientNet-B4 + Grad-CAM + MATLAB preprocessing + FastAPI + NeonDB + React PWA.
 
 **Open To:** Part-time Backend Engineering · ML Engineering · Agentic AI roles at AI-first startups
 
@@ -66,7 +66,7 @@ I architect and ship full production systems across the entire stack: Spring Boo
 
 ![NeonDB](https://img.shields.io/badge/NeonDB-00E699?style=flat-square&logo=neon&logoColor=black)
 ![CockroachDB](https://img.shields.io/badge/CockroachDB-6933FF?style=flat-square&logo=cockroachlabs&logoColor=white)
-![pgvector](https://img.shields.io/badge/pgvector-PostgreSQL-336791?style=flat-square&logo=postgresql&logoColor=white)
+![pgvector](https://img.shields.io/badge/pgvector-336791?style=flat-square&logo=postgresql&logoColor=white)
 
 **Cloud, DevOps & Tooling**
 
@@ -89,9 +89,36 @@ I architect and ship full production systems across the entire stack: Spring Boo
 | Serverless AI Pipelines | █████████░ Advanced | AWS Lambda, API Gateway, DynamoDB, EventBridge, voice-AI orchestration |
 | LLM Integration | ████████░░ Advanced | Groq, Gemini, ElevenLabs, OpenRouteService, tool-calling agents |
 | Audio ML | ██████░░░░ Intermediate | wav2vec2, MFCC, Librosa, deepfake detection ensembles |
-| Computer Vision | ███████░░░ Intermediate | YOLOv8, object detection, mAP evaluation, real-time inference |
+| Computer Vision | ███████░░░ Intermediate | EfficientNet-B4, Grad-CAM, MATLAB image processing, medical imaging |
 
 </div>
+
+---
+
+## ◈ Active Build
+
+<details>
+<summary><b>🏥 DRISHTI — Explainable AI for Diabetic Retinopathy Screening (SIH 2026)</b></summary>
+
+<br/>
+
+Complete DR screening management system for rural India. Health worker uploads fundus image via mobile → MATLAB quality check → EfficientNet-B4 classifies DR severity → Grad-CAM heatmap shows WHERE damage is → Groq generates referral recommendation → doctor reviews in under 30 seconds.
+
+| Attribute | Details |
+|---|---|
+| Stack | Python · EfficientNet-B4 · Grad-CAM · MATLAB · FastAPI · NeonDB · React PWA · Groq |
+| Dataset | APTOS 2019 (3,662 images) · IDRiD (Indian patients) · DRIVE · Messidor-2 |
+| Target | Sensitivity >90% · Specificity >85% for referable DR (Grade 2+) |
+| Preprocessing | MATLAB CLAHE · quality assessment · vessel segmentation · denoising |
+| Explainability | Grad-CAM heatmaps correlated with lesion types (microaneurysm, hemorrhage, exudate) |
+| Features | Patient history · referral tracking · doctor confirmation · active learning loop · offline PWA |
+| Deployment | ASHA worker deployable · mobile-first · works on 4G · no new hardware required |
+| Hackathon | Smart India Hackathon 2026 — SIH26038 · MathWorks · Internal round Sep 16-17 |
+| Status | 🔴 Active build |
+
+**Key differentiator:** Not just a classifier — a complete screening management system. Grad-CAM explainability enables ophthalmologist validation in under 30 seconds. Offline-first PWA works in areas with no internet. District-level deployment modeled in Simulink — 480 patients/PHC/day, 8.7M screens annually across 50 PHCs.
+
+</details>
 
 ---
 
@@ -114,30 +141,7 @@ Full-stack F1 analytics platform independently architected across backend, front
 | Deployment | Render (full-stack) · Live at deltabox-2.onrender.com |
 | Repository | [github.com/Mohammad-Adnan-Shakil/deltabox](https://github.com/Mohammad-Adnan-Shakil/deltabox) |
 
-**Key architectural decision:** Instead of deploying Python ML models as a separate HTTP microservice, I integrated them directly into the Spring Boot backend via `ProcessBuilder` — eliminating network latency, reducing deployment complexity, and keeping inference under 15ms. Every tradeoff was deliberate.
-
-</details>
-
----
-
-<details>
-<summary><b>🏎️ Pitwall — Agentic RAG System for F1 Race Intelligence</b></summary>
-
-<br/>
-
-Agentic RAG system built as a standalone intelligence layer — retrieves real F1 race data from a pgvector store, evaluates retrieval sufficiency before answering, and measures output quality with RAGAS metrics.
-
-| Attribute | Details |
-|---|---|
-| Stack | Python · LangGraph · FastAPI · pgvector · PostgreSQL · Groq · RAGAS · React |
-| Architecture | Agent decides whether to retrieve or answer from context — not a fixed pipeline |
-| Retrieval | pgvector similarity search over historical F1 race data, telemetry, and strategy documents |
-| Evaluation | RAGAS: faithfulness · answer relevance · context precision · hallucination rate |
-| Integration | FastAPI service callable from DeltaBox's Spring Boot backend |
-| Deployment | Live at pit-wall-lemon.vercel.app |
-| Repository | [github.com/Mohammad-Adnan-Shakil/PitWall](https://github.com/Mohammad-Adnan-Shakil/PitWall) |
-
-**Key architectural decision:** The agent evaluates retrieval sufficiency before generating — if retrieved chunks don't adequately cover the question, it reformulates the query and retrieves again rather than hallucinating. This is what separates production RAG from tutorial RAG.
+**Key architectural decision:** Instead of deploying Python ML models as a separate HTTP microservice, I integrated them directly into the Spring Boot backend via `ProcessBuilder` — eliminating network latency, reducing deployment complexity, and keeping inference under 15ms.
 
 </details>
 
@@ -156,8 +160,26 @@ Domain-specific LLM fine-tuned on Indian court judgements via QLoRA — with an 
 | Data Source | Indian Kanoon — 20M+ court judgements, acts, and legal precedents |
 | Method | QLoRA (4-bit quantization + LoRA adapters) — fine-tuning on consumer GPU |
 | Evaluation | RAGAS: faithfulness · answer relevance · context precision · hallucination rate |
-| Goal | Published comparison: Jurix vs. Mistral base vs. GPT-4o on Indian legal benchmark |
 | Status | ✅ Shipped — August 2026 |
+
+</details>
+
+---
+
+<details>
+<summary><b>🏎️ Pitwall — Agentic RAG System for F1 Race Intelligence</b></summary>
+
+<br/>
+
+Agentic RAG system built as a standalone intelligence layer — retrieves real F1 race data from a pgvector store, evaluates retrieval sufficiency before answering, and measures output quality with RAGAS metrics.
+
+| Attribute | Details |
+|---|---|
+| Stack | Python · LangGraph · FastAPI · pgvector · PostgreSQL · Groq · RAGAS · React |
+| Architecture | Agent decides whether to retrieve or answer from context — not a fixed pipeline |
+| Evaluation | RAGAS: faithfulness · answer relevance · context precision · hallucination rate |
+| Deployment | Live at pit-wall-lemon.vercel.app |
+| Repository | [github.com/Mohammad-Adnan-Shakil/PitWall](https://github.com/Mohammad-Adnan-Shakil/PitWall) |
 
 </details>
 
@@ -177,11 +199,8 @@ Fully autonomous 5-agent job intelligence system that finds opportunities, resea
 | Scheduling | GitHub Actions cron — runs daily at 7am IST, no server infrastructure |
 | Performance | Batched LLM scoring reduced Groq API calls ~15x after production rate limit hit |
 | Memory | cypher_memory feedback loop — learns approve/skip patterns, adjusts scoring over time |
-| Integration | Gmail OAuth2 (read + send) for reply detection and automated outreach delivery |
-| Dashboard | React (5 pages: Stats, Kanban, Outreach Tracker, Memory, Hackathons) on Vercel |
+| Deployment | Live at cypher-navy.vercel.app |
 | Repository | [github.com/Mohammad-Adnan-Shakil/Cypher](https://github.com/Mohammad-Adnan-Shakil/Cypher) |
-
-**Key architectural decision:** Diagnosed per-item LLM scoring as the rate limit root cause and rearchitected to batch all opportunities per run — cutting API calls from O(n) to O(1) per agent cycle. A production debugging decision, not a tutorial pattern.
 
 </details>
 
@@ -192,38 +211,31 @@ Fully autonomous 5-agent job intelligence system that finds opportunities, resea
 
 <br/>
 
-Multi-agent commute planning system for Bengaluru with strict separation of concerns — real road geometry, live congestion reasoning, and temporal decision-making ("leave at 7:30am vs 9:15am").
+Multi-agent commute planning system for Bengaluru with strict separation of concerns — real road geometry, live congestion reasoning, and temporal decision-making.
 
 | Attribute | Details |
 |---|---|
 | Stack | Python · Google ADK · Gemini 2.5 Flash-Lite · FastAPI · React · OpenRouteService · React-Leaflet |
 | Architecture | Orchestrator → route_agent (data only) → advisor_agent (decisions only) |
 | Recognition | Ranked 144th · Google AI Agent Builder Series 2026 (HiDevs × Google for Developers) |
-| Integrity | Honest fallback — agent explicitly states when it lacks corridor data, no hallucination |
-| Deployment | Backend: Render · Frontend: Vercel |
 | Repository | [github.com/Mohammad-Adnan-Shakil/bengaluru-commute-agent](https://github.com/Mohammad-Adnan-Shakil/bengaluru-commute-agent) |
-
-**Key architectural decision:** Strict agent role separation — route_agent is instructed to never give opinions, advisor_agent never fetches data. This prevents model drift, makes debugging deterministic, and mirrors production multi-agent design patterns.
 
 </details>
 
 ---
 
 <details>
-<summary><b>🪲 commute-memory-agent — Agentic Memory Layer (CockroachDB × AWS Hackathon)</b></summary>
+<summary><b>🪲 commute-memory-agent — Agentic Memory Layer</b></summary>
 
 <br/>
 
-Extends bengaluru-commute-agent with persistent agentic memory via CockroachDB — the agent remembers past commutes, preferred routes, and outcome history, improving recommendations over time.
+Extends bengaluru-commute-agent with persistent agentic memory via CockroachDB — agent remembers past commutes, preferred routes, and outcome history.
 
 | Attribute | Details |
 |---|---|
 | Stack | Python · CockroachDB · AWS · LangGraph · Distributed Vector Indexing · MCP Server |
 | Hackathon | CockroachDB × AWS — "Build with Agentic Memory" · August 2026 |
-| Memory Types | Conversation history (transactional) · Route preference embeddings (vector) · Outcome tracking |
-| Mandatory Tools | CockroachDB MCP Server + Distributed Vector Indexing |
-| Status | ✅ Shipped — submitted August 2026 |
-| Repository | [github.com/Mohammad-Adnan-Shakil/commute-memory-agent](https://github.com/Mohammad-Adnan-Shakil/commute-memory-agent) |
+| Status | ✅ Shipped — August 2026 |
 
 </details>
 
@@ -234,39 +246,15 @@ Extends bengaluru-commute-agent with persistent agentic memory via CockroachDB �
 
 <br/>
 
-Dual-model ML ensemble classifying real vs. AI-generated audio using wav2vec2 embeddings and MFCC/spectral features, with a FastAPI inference backend and React frontend.
+Dual-model ML ensemble classifying real vs. AI-generated audio using wav2vec2 embeddings and MFCC/spectral features.
 
 | Attribute | Details |
 |---|---|
 | Stack | Python · XGBoost · Random Forest · wav2vec2 · Librosa · FastAPI · React |
-| Features | 40 MFCC coefficients · spectral centroid · rolloff · zero crossing rate · wav2vec2 embeddings |
-| Ensemble | Majority-vote — disagreement flagged as low-confidence, not forced to a decision |
-| Training | 3,000+ labeled audio samples · 80/20 split · StandardScaler normalization |
+| Ensemble | Majority-vote — disagreement flagged as low-confidence |
+| Training | 3,000+ labeled audio samples · 80/20 split |
 | Event | FusionX Hackathon 2026 — top score in first technical evaluation round |
 | Repository | [github.com/FuncLexa/FakeOut-AI](https://github.com/FuncLexa/FakeOut-AI) |
-
-</details>
-
----
-
-## ◈ Active Build
-
-<details>
-<summary><b>🚧 Crater — Civic Road Damage Detection for Indian Roads</b></summary>
-
-<br/>
-
-Real-time road damage detection and civic reporting platform. Citizens point their mobile camera at a road — YOLOv8 detects potholes, cracks, and patching in real-time. One tap reports damage with GPS coordinates to a PostgreSQL database. BBMP admins manage repairs via a protected dashboard.
-
-| Attribute | Details |
-|---|---|
-| Stack | Python · YOLOv8s · FastAPI · NeonDB · PostGIS · React · WebRTC · React-Leaflet · JWT |
-| Dataset | RDD2022 — India subset · pothole · longitudinal crack · transverse crack · alligator crack · patching |
-| Training | YOLOv8s on RTX 4050 6GB — fine-tuned on Indian road data |
-| Citizen Side | WebRTC live camera · canvas bounding box overlay · GPS capture · one-tap report |
-| Admin Side | JWT + RBAC · React-Leaflet damage map · contractor assignment · repair lifecycle |
-| Metric | mAP@50 per damage class on held-out test set + inference latency ms/frame |
-| Status | 🔴 Active build |
 
 </details>
 
@@ -277,12 +265,10 @@ Real-time road damage detection and civic reporting platform. Citizens point the
 **Software Engineering Intern — Backend & AI Systems**
 Dyslexia Reading Tutor AI · Remote · June 2026 – August 2026
 
-Designed and shipped a production serverless voice-AI pipeline automating outbound parent follow-up calls for a dyslexia/reading-intervention platform — end-to-end verified across all pipeline stages.
-
-- Evaluated 3 voice-AI architectures (ElevenLabs Conversational AI, Deepgram STT+LLM+TTS, custom orchestration) against latency, cost, and production-readiness; selected and shipped ElevenLabs
-- Designed the full pipeline: HubSpot webhook → API Gateway → AWS Lambda → ElevenLabs → DynamoDB → EventBridge polling → HubSpot CRM sync
+- Evaluated 3 voice-AI architectures against latency, cost, and production-readiness; selected and shipped ElevenLabs
+- Designed full serverless pipeline: HubSpot → API Gateway → AWS Lambda → ElevenLabs → DynamoDB → EventBridge → HubSpot CRM sync
 - Built 3 production Node.js Lambda functions — outbound call triggering, conversation-outcome polling, bi-directional CRM sync
-- Identified that HubSpot workflows cannot directly drive a telephony vendor and architected the required middleware orchestration layer — now the system's core design pattern
+- Identified that HubSpot workflows cannot directly drive a telephony vendor and architected the required middleware orchestration layer
 
 ![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonaws)
 ![Lambda](https://img.shields.io/badge/Lambda-FF9900?style=flat-square&logo=awslambda)
@@ -299,9 +285,10 @@ Designed and shipped a production serverless voice-AI pipeline automating outbou
 
 | Recognition | Details |
 |---|---|
+| 🏥 SIH 2026 | Selected for internal round — DRISHTI (Explainable AI for DR Screening) · SIH26038 · MathWorks |
 | 🚀 Production Internship | Shipped end-to-end production AWS voice-AI pipeline within 3 weeks of joining |
 | 🏆 Google AI Agent Builder Series 2026 | Ranked 144th · HiDevs × Google for Developers |
-| 🎯 FusionX Hackathon 2026 | Top score in first technical evaluation round for FakeOut AI deepfake detection |
+| 🎯 FusionX Hackathon 2026 | Top score in first technical evaluation round for FakeOut AI |
 | 📚 Academic | 7.99 CGPA while independently architecting and deploying 7+ full-stack AI platforms |
 | 🔬 Open Source | PR #3507 merged to topoteretes/cognee (23k ⭐) — mem0→Cognee migration example |
 | 🏗️ Build with TRAE Hackathon | 5th place — CentSight AI financial decision simulator |
@@ -321,26 +308,6 @@ Designed and shipped a production serverless voice-AI pipeline automating outbou
 
 ---
 
-## ◈ GitHub Trophies
-
-<div align="center">
-
-![Trophies](https://github-profile-trophy.vercel.app/?username=Mohammad-Adnan-Shakil&theme=darkhub&no-frame=true&column=7&margin-w=8&title_color=DC143C)
-
-</div>
-
----
-
-## ◈ Contribution Activity
-
-<div align="center">
-
-[![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=Mohammad-Adnan-Shakil&theme=github-compact&bg_color=0a0a0f&color=DC143C&line=DC143C&point=ffffff&hide_border=true)](https://github.com/Mohammad-Adnan-Shakil)
-
-</div>
-
----
-
 ## ◈ Contribution Graph
 
 <div align="center">
@@ -355,21 +322,27 @@ Designed and shipped a production serverless voice-AI pipeline automating outbou
 
 ```yaml
 building:
-  - Crater — YOLOv8 road damage detection for Indian roads
-      citizen mobile camera → real-time detection → GPS report → admin dashboard
-      dataset: RDD2022 India subset · stack: FastAPI + NeonDB + React + WebRTC
+  - DRISHTI — Explainable AI for DR Screening (SIH26038)
+      EfficientNet-B4 + Grad-CAM + MATLAB + FastAPI + NeonDB + React PWA
+      Internal hackathon: Sep 16-17, Presidency University
+      Features: patient history, referral tracking, offline PWA, active learning
 
 grinding:
   - NeetCode 150 — 1 problem/day weekdays, 2 on weekends
       target: complete by December 2026
-      then: company-wise practice strategy with review session
-  - System design — 1 ByteByteGo video/week (light now, heavy from 6th sem)
+      currently: Sliding Window section
+  - System design — 1 ByteByteGo video/week
 
 shipped:
   - Jurix — fine-tuned LLM on Indian legal corpus (QLoRA, RAGAS evaluated)
   - commute-memory-agent — agentic memory via CockroachDB × AWS Hackathon
   - Pitwall — agentic RAG for F1 intelligence (pit-wall-lemon.vercel.app)
   - Cypher — autonomous 5-agent job intelligence (cypher-navy.vercel.app)
+
+learning:
+  - MATLAB Image Processing Toolbox (for DRISHTI)
+  - EfficientNet transfer learning on medical imaging
+  - Grad-CAM explainability implementation
 
 open_to:
   - Part-time ML Engineering roles
