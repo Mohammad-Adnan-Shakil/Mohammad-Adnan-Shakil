@@ -40,7 +40,7 @@ I architect and ship full production systems across the entire stack: Spring Boo
 
 **Previously:** Software Engineering Intern at Dyslexia Reading Tutor AI — designed and shipped a production serverless voice-AI pipeline on AWS (Lambda → ElevenLabs → DynamoDB → EventBridge → HubSpot), end-to-end verified in production within 3 weeks of joining.
 
-**Currently:** Building DRISHTI — Explainable AI for Diabetic Retinopathy Screening in Rural India (SIH 2026). EfficientNet-B4 + Grad-CAM + MATLAB preprocessing + FastAPI + NeonDB + React PWA.
+**Currently:** Building DRISHTI — Explainable AI for Diabetic Retinopathy Screening in Rural India (SIH 2026 Grand Finale). EfficientNet-B4 + Grad-CAM + MATLAB preprocessing + FastAPI + NeonDB + React PWA.
 
 **Open To:** Part-time Backend Engineering · ML Engineering · Agentic AI roles at AI-first startups
 
@@ -98,7 +98,7 @@ I architect and ship full production systems across the entire stack: Spring Boo
 ## ◈ Active Build
 
 <details>
-<summary><b>🏥 DRISHTI — Explainable AI for Diabetic Retinopathy Screening (SIH 2026)</b></summary>
+<summary><b>🏥 DRISHTI — Explainable AI for Diabetic Retinopathy Screening (SIH 2026 Grand Finale)</b></summary>
 
 <br/>
 
@@ -113,8 +113,8 @@ Complete DR screening management system for rural India. Health worker uploads f
 | Explainability | Grad-CAM heatmaps correlated with lesion types (microaneurysm, hemorrhage, exudate) |
 | Features | Patient history · referral tracking · doctor confirmation · active learning loop · offline PWA |
 | Deployment | ASHA worker deployable · mobile-first · works on 4G · no new hardware required |
-| Hackathon | Smart India Hackathon 2026 — SIH26038 · MathWorks · Internal round Sep 16-17 |
-| Status | 🔴 Active build |
+| Hackathon | Smart India Hackathon 2026 — SIH26038 · MathWorks · **Grand Finale: Sep 25-26, Bengaluru** |
+| Status | 🔴 Active build · Live: drishti-ai-ruddy.vercel.app |
 
 **Key differentiator:** Not just a classifier — a complete screening management system. Grad-CAM explainability enables ophthalmologist validation in under 30 seconds. Offline-first PWA works in areas with no internet. District-level deployment modeled in Simulink — 480 patients/PHC/day, 8.7M screens annually across 50 PHCs.
 
@@ -285,7 +285,7 @@ Dyslexia Reading Tutor AI · Remote · June 2026 – August 2026
 
 | Recognition | Details |
 |---|---|
-| 🏥 SIH 2026 | Selected for internal round — DRISHTI (Explainable AI for DR Screening) · SIH26038 · MathWorks |
+| 🏥 SIH 2026 Grand Finale | Selected for Grand Finale — DRISHTI (Explainable AI for DR Screening) · SIH26038 · MathWorks · Sep 25-26, Bengaluru |
 | 🚀 Production Internship | Shipped end-to-end production AWS voice-AI pipeline within 3 weeks of joining |
 | 🏆 Google AI Agent Builder Series 2026 | Ranked 144th · HiDevs × Google for Developers |
 | 🎯 FusionX Hackathon 2026 | Top score in first technical evaluation round for FakeOut AI |
@@ -324,13 +324,14 @@ Dyslexia Reading Tutor AI · Remote · June 2026 – August 2026
 building:
   - DRISHTI — Explainable AI for DR Screening (SIH26038)
       EfficientNet-B4 + Grad-CAM + MATLAB + FastAPI + NeonDB + React PWA
-      Internal hackathon: Sep 16-17, Presidency University
+      Grand Finale: Sep 25-26, 2026 · Submission deadline Sep 30
       Features: patient history, referral tracking, offline PWA, active learning
+      Live: drishti-ai-ruddy.vercel.app
 
 grinding:
   - NeetCode 150 — 1 problem/day weekdays, 2 on weekends
       target: complete by December 2026
-      currently: Sliding Window section
+      currently: Stack section
   - System design — 1 ByteByteGo video/week
 
 shipped:
