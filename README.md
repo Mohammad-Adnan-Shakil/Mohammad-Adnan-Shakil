@@ -1,314 +1,267 @@
-<div align="center">
+# Mohammad Adnan Shakil
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=8B0000,DC143C,1a0000&height=220&section=header&text=Mohammad%20Adnan%20Shakil&fontSize=42&fontColor=ffffff&fontAlignY=38&desc=Backend%20Engineer%20%E2%80%A2%20AI%20Systems%20%E2%80%A2%20ML%20Engineer&descAlignY=60&descSize=17&animation=fadeIn"/>
+```
+Backend Engineer · AI Systems · ML Engineer
+Building systems that decide, not just display.
+```
 
-<br/>
+[![Portfolio](https://img.shields.io/badge/Portfolio-111111?style=flat-square&logo=vercel&logoColor=white)](https://portfolio-p2jh.vercel.app)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/mohammadadnanshakil)
+[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:muhammedadnanshakil456@gmail.com)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Mohammad-Adnan-Shakil)
 
-<img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&size=16&duration=3000&pause=900&color=DC143C&center=true&vCenter=true&width=850&lines=Building+systems+that+decide%2C+not+just+display;Spring+Boot+%7C+React+%7C+PostgreSQL+%7C+Python+ML;Multi-agent+AI+%7C+LangGraph+%7C+Google+ADK+%7C+LLM+Fine-tuning;Agentic+RAG+%7C+QLoRA+%7C+AWS+Serverless+%7C+FastAPI;EfficientNet+%7C+Grad-CAM+%7C+MATLAB+%7C+Medical+AI"/>
-
-<br/>
-
-![Location](https://img.shields.io/badge/📍_Bengaluru-India-DC143C?style=flat-square)
-![University](https://img.shields.io/badge/Presidency_University-B.Tech_CSE_2028-8B0000?style=flat-square)
-![CGPA](https://img.shields.io/badge/CGPA-7.99%2F10-DC143C?style=flat-square)
-![Status](https://img.shields.io/badge/Open_To-Part--Time_Roles-success?style=flat-square)
-
-<br/>
-
-[![Portfolio](https://img.shields.io/badge/Portfolio-111111?style=for-the-badge&logo=vercel&logoColor=white)](https://portfolio-p2jh.vercel.app)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/mohammadadnanshakil)
-[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:muhammedadnanshakil456@gmail.com)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Mohammad-Adnan-Shakil)
-
-<br/>
-
-![Profile Views](https://komarev.com/ghpvc/?username=Mohammad-Adnan-Shakil&color=DC143C&style=flat-square&label=Profile+Views)
-![GitHub followers](https://img.shields.io/github/followers/Mohammad-Adnan-Shakil?style=flat-square&color=DC143C&label=Followers)
-![GitHub stars](https://img.shields.io/github/stars/Mohammad-Adnan-Shakil?style=flat-square&color=DC143C&label=Total+Stars)
-
-</div>
+```
+Location   : Bengaluru, India
+University : Presidency University · B.Tech CSE · 2028
+CGPA       : 7.99 / 10
+Status     : Open to part-time ML · Backend · Agentic AI roles
+```
 
 ---
 
-## ◈ About Me
+## About
 
-<img align="right" width="300" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Mohammad-Adnan-Shakil&layout=compact&theme=dark&hide_border=true&title_color=DC143C&icon_color=DC143C"/>
+3rd year CSE student at Presidency University, Bengaluru. I build backend-first AI systems where every architectural decision is deliberate.
 
-Third-year Computer Science Engineering student at Presidency University, Bengaluru — building backend-first AI systems where every architectural decision is deliberate, not default.
+I ship full production systems across the stack: Spring Boot backends with Python ML pipelines, multi-agent LangGraph systems with persistent memory, serverless AWS pipelines, fine-tuned domain-specific LLMs, and medical AI with explainability layers.
 
-I architect and ship full production systems across the entire stack: Spring Boot backends with Python ML pipelines via subprocess orchestration, multi-agent LangGraph systems with persistent memory, serverless AWS pipelines, fine-tuned domain-specific LLMs, and medical AI with explainability layers. I work fast, debug deep, and care about clean architecture over tutorial-level work.
+**Previously:** SWE Intern at Dyslexia Reading Tutor AI — designed and shipped a production serverless voice-AI pipeline on AWS (Lambda → ElevenLabs → DynamoDB → EventBridge → HubSpot), end-to-end verified in production within 3 weeks.
 
-**Previously:** Software Engineering Intern at Dyslexia Reading Tutor AI — designed and shipped a production serverless voice-AI pipeline on AWS (Lambda → ElevenLabs → DynamoDB → EventBridge → HubSpot), end-to-end verified in production within 3 weeks of joining.
-
-**Currently:** Building DRISHTI — Explainable AI for Diabetic Retinopathy Screening in Rural India (SIH 2026 Grand Finale). EfficientNet-B4 + Grad-CAM + MATLAB preprocessing + FastAPI + NeonDB + React PWA.
-
-**Open To:** Part-time Backend Engineering · ML Engineering · Agentic AI roles at AI-first startups
+**Currently:** Building DRISHTI — Explainable AI for Diabetic Retinopathy Screening in rural India. PPT submitted to SIH 2026 portal (SIH26038 · MathWorks) — awaiting Grand Finale shortlisting.
 
 ---
 
-## ◈ Tech Stack
-
-<div align="center">
+## Stack
 
 **Languages**
 
-![Skills](https://skillicons.dev/icons?i=java,python,javascript,c&theme=dark)
-
-**Frontend**
-
-![Skills](https://skillicons.dev/icons?i=react,tailwind,html,css&theme=dark)
+![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![C](https://img.shields.io/badge/C-00599C?style=flat-square&logo=c&logoColor=white)
 
 **Backend & Databases**
 
-![Skills](https://skillicons.dev/icons?i=spring,nodejs,express,fastapi,postgresql,mongodb&theme=dark)
-
-**Databases (Extended)**
-
+![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=flat-square&logo=postgresql&logoColor=white)
 ![NeonDB](https://img.shields.io/badge/NeonDB-00E699?style=flat-square&logo=neon&logoColor=black)
 ![CockroachDB](https://img.shields.io/badge/CockroachDB-6933FF?style=flat-square&logo=cockroachlabs&logoColor=white)
 ![pgvector](https://img.shields.io/badge/pgvector-336791?style=flat-square&logo=postgresql&logoColor=white)
 
-**Cloud, DevOps & Tooling**
+**Frontend**
 
-![Skills](https://skillicons.dev/icons?i=aws,git,github,docker,vscode,idea&theme=dark)
+![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
+![Tailwind](https://img.shields.io/badge/Tailwind-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
 
-</div>
+**Cloud & DevOps**
+
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonaws&logoColor=white)
+![Lambda](https://img.shields.io/badge/Lambda-FF9900?style=flat-square&logo=awslambda&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
+
+**AI / ML**
+
+![LangGraph](https://img.shields.io/badge/LangGraph-111111?style=flat-square)
+![Google ADK](https://img.shields.io/badge/Google_ADK-4285F4?style=flat-square&logo=google&logoColor=white)
+![HuggingFace](https://img.shields.io/badge/HuggingFace-FFD21E?style=flat-square&logo=huggingface&logoColor=black)
+![XGBoost](https://img.shields.io/badge/XGBoost-FF6600?style=flat-square)
+![EfficientNet](https://img.shields.io/badge/EfficientNet-4B5563?style=flat-square)
+![wav2vec2](https://img.shields.io/badge/wav2vec2-4B5563?style=flat-square)
+![n8n](https://img.shields.io/badge/n8n-EA4B71?style=flat-square&logo=n8n&logoColor=white)
 
 ---
 
-## ◈ AI / ML Expertise
+## ML Depth
 
-<div align="center">
-
-| Domain | Proficiency | Details |
+| Domain | Level | Notes |
 |---|---|---|
-| Multi-Agent Systems | ████████░░ Advanced | Google ADK, LangGraph, orchestrator patterns, strict separation of concerns |
-| LLM Fine-Tuning | ████████░░ Advanced | QLoRA, LoRA, PEFT, SFTTrainer, HuggingFace ecosystem |
-| Agentic RAG | ███████░░░ Intermediate | pgvector, retrieval chains, RAGAS evaluation, faithfulness metrics |
-| Classical ML | ████████░░ Advanced | XGBoost, Random Forest, ensemble methods, validation pipelines |
-| Serverless AI Pipelines | █████████░ Advanced | AWS Lambda, API Gateway, DynamoDB, EventBridge, voice-AI orchestration |
-| LLM Integration | ████████░░ Advanced | Groq, Gemini, ElevenLabs, OpenRouteService, tool-calling agents |
-| Audio ML | ██████░░░░ Intermediate | wav2vec2, MFCC, Librosa, deepfake detection ensembles |
-| Computer Vision | ███████░░░ Intermediate | EfficientNet-B4, Grad-CAM, MATLAB image processing, medical imaging |
-
-</div>
+| Multi-Agent Systems | Advanced | Google ADK · LangGraph · strict separation of concerns |
+| LLM Fine-Tuning | Advanced | QLoRA · LoRA · PEFT · SFTTrainer · HuggingFace |
+| Agentic RAG | Intermediate | pgvector · retrieval chains · RAGAS evaluation |
+| Classical ML | Advanced | XGBoost · Random Forest · ensemble methods |
+| Serverless AI Pipelines | Advanced | AWS Lambda · API Gateway · DynamoDB · voice-AI orchestration |
+| Computer Vision | Intermediate | EfficientNet-B4 · Grad-CAM · MATLAB · medical imaging |
+| Audio ML | Intermediate | wav2vec2 · MFCC · Librosa · deepfake detection |
+| AI Automation | Intermediate | n8n · LlamaParse · webhook orchestration · rubric scoring |
 
 ---
 
-## ◈ Active Build
+## Active Build
 
-<details>
-<summary><b>🏥 DRISHTI — Explainable AI for Diabetic Retinopathy Screening (SIH 2026 Grand Finale)</b></summary>
+### DRISHTI — Explainable AI for Diabetic Retinopathy Screening
 
-<br/>
+```
+Stack      : EfficientNet-B4 · Grad-CAM · MATLAB · FastAPI · NeonDB · React PWA · Groq
+Dataset    : APTOS 2019 · IDRiD · DRIVE · Messidor-2
+Target     : Sensitivity >90% · Specificity >85% for referable DR (Grade 2+)
+Hackathon  : Smart India Hackathon 2026 · SIH26038 · MathWorks
+Status     : PPT submitted · Awaiting Grand Finale shortlisting
+Live       : drishti-ai-ruddy.vercel.app
+```
 
-Complete DR screening management system for rural India. Health worker uploads fundus image via mobile → MATLAB quality check → EfficientNet-B4 classifies DR severity → Grad-CAM heatmap shows WHERE damage is → Groq generates referral recommendation → doctor reviews in under 30 seconds.
-
-| Attribute | Details |
-|---|---|
-| Stack | Python · EfficientNet-B4 · Grad-CAM · MATLAB · FastAPI · NeonDB · React PWA · Groq |
-| Dataset | APTOS 2019 (3,662 images) · IDRiD (Indian patients) · DRIVE · Messidor-2 |
-| Target | Sensitivity >90% · Specificity >85% for referable DR (Grade 2+) |
-| Preprocessing | MATLAB CLAHE · quality assessment · vessel segmentation · denoising |
-| Explainability | Grad-CAM heatmaps correlated with lesion types (microaneurysm, hemorrhage, exudate) |
-| Features | Patient history · referral tracking · doctor confirmation · active learning loop · offline PWA |
-| Deployment | ASHA worker deployable · mobile-first · works on 4G · no new hardware required |
-| Hackathon | Smart India Hackathon 2026 — SIH26038 · MathWorks · **Grand Finale: Sep 25-26, Bengaluru** |
-| Status | 🔴 Active build · Live: drishti-ai-ruddy.vercel.app |
-
-**Key differentiator:** Not just a classifier — a complete screening management system. Grad-CAM explainability enables ophthalmologist validation in under 30 seconds. Offline-first PWA works in areas with no internet. District-level deployment modeled in Simulink — 480 patients/PHC/day, 8.7M screens annually across 50 PHCs.
-
-</details>
+Health worker uploads fundus image via mobile → MATLAB quality check → EfficientNet-B4 classifies DR severity → Grad-CAM heatmap shows where damage is → Groq generates referral recommendation → doctor reviews in under 30 seconds. Not just a classifier — a complete screening management system. Offline-first PWA deployable by ASHA workers with no new hardware.
 
 ---
 
-## ◈ Featured Projects
+## Projects
 
-<details>
-<summary><b>🔴 DeltaBox — AI-Powered Formula 1 Intelligence Platform</b></summary>
+### DeltaBox — AI-Powered Formula 1 Intelligence Platform
 
-<br/>
+```
+Stack      : Spring Boot · React · PostgreSQL · Python · XGBoost · Random Forest · JWT · Render
+Accuracy   : 79.6% Top-3 finishing-position accuracy · R² 0.62
+Inference  : 13.4ms blended · XGBoost 2.5ms · Random Forest 10.9ms
+Repo       : github.com/Mohammad-Adnan-Shakil/deltabox
+Live       : deltabox-2.onrender.com
+```
 
-Full-stack F1 analytics platform independently architected across backend, frontend, ML pipeline, and database — with a blended ML engine, What-If simulation, and Groq-powered conversational AI assistant.
-
-| Attribute | Details |
-|---|---|
-| Stack | Spring Boot · React · PostgreSQL · Python · XGBoost · Random Forest · JWT · Render |
-| ML Performance | 79.6% Top-3 finishing-position accuracy · R² 0.62 on held-out test set |
-| Inference Speed | 13.4ms blended · XGBoost: 2.5ms · Random Forest: 10.9ms |
-| Security | Custom JWT + RBAC built from scratch — no Spring Security defaults |
-| Architecture | Java ↔ Python via ProcessBuilder (JSON over STDIN/STDOUT) — no external ML service |
-| Deployment | Render (full-stack) · Live at deltabox-2.onrender.com |
-| Repository | [github.com/Mohammad-Adnan-Shakil/deltabox](https://github.com/Mohammad-Adnan-Shakil/deltabox) |
-
-**Key architectural decision:** Instead of deploying Python ML models as a separate HTTP microservice, I integrated them directly into the Spring Boot backend via `ProcessBuilder` — eliminating network latency, reducing deployment complexity, and keeping inference under 15ms.
-
-</details>
+Full-stack F1 analytics platform independently architected across backend, frontend, ML pipeline and database. Python ML models integrated into Spring Boot via ProcessBuilder (JSON over STDIN/STDOUT) — no separate ML microservice, no network hop, inference under 15ms. Custom JWT + RBAC built from scratch.
 
 ---
 
-<details>
-<summary><b>🧠 Jurix — Fine-Tuned LLM for Indian Legal Intelligence</b></summary>
+### AutoHire.AI — Autonomous Recruitment Screening System
 
-<br/>
+```
+Stack      : n8n · LlamaParse · Groq · FastAPI · React 19 · Airtable · Gmail
+Speed      : 44.3s per resume — upload to decision email
+Rubric     : 100-point across 4 weighted categories (technical 40 · experience 30 · education 15 · communication 15)
+Tiers      : 75+ shortlist · 50–74 waitlist · below 50 reject (enforced in code)
+Workflow   : 14-node n8n · zero manual steps
+Hackathon  : HackSprint · MAHE · Oct 17-18, 2026 · Track 22: AI Automation with n8n · Result pending
+Repo       : github.com/Mohammad-Adnan-Shakil/AutohireAI
+```
 
-Domain-specific LLM fine-tuned on Indian court judgements via QLoRA — with an agentic RAG layer and RAGAS evaluation comparing fine-tuned vs. base model performance on Indian legal Q&A.
-
-| Attribute | Details |
-|---|---|
-| Stack | Python · Mistral 7B / Llama 3.1 8B · QLoRA · PEFT · HuggingFace · pgvector · FastAPI · React |
-| Data Source | Indian Kanoon — 20M+ court judgements, acts, and legal precedents |
-| Method | QLoRA (4-bit quantization + LoRA adapters) — fine-tuning on consumer GPU |
-| Evaluation | RAGAS: faithfulness · answer relevance · context precision · hallucination rate |
-| Status | ✅ Shipped — August 2026 |
-
-</details>
+Recruiter uploads a resume → within 45 seconds the candidate is scored, tiered, and emailed the outcome with a written explanation. Every decision is logged with reasoning. Architecture: React → FastAPI → n8n webhook → LlamaParse → Groq LLM → code-enforced tiering → Gmail → Airtable → dashboard.
 
 ---
 
-<details>
-<summary><b>🏎️ Pitwall — Agentic RAG System for F1 Race Intelligence</b></summary>
+### Jurix — Fine-Tuned LLM for Indian Legal Intelligence
 
-<br/>
-
-Agentic RAG system built as a standalone intelligence layer — retrieves real F1 race data from a pgvector store, evaluates retrieval sufficiency before answering, and measures output quality with RAGAS metrics.
-
-| Attribute | Details |
-|---|---|
-| Stack | Python · LangGraph · FastAPI · pgvector · PostgreSQL · Groq · RAGAS · React |
-| Architecture | Agent decides whether to retrieve or answer from context — not a fixed pipeline |
-| Evaluation | RAGAS: faithfulness · answer relevance · context precision · hallucination rate |
-| Deployment | Live at pit-wall-lemon.vercel.app |
-| Repository | [github.com/Mohammad-Adnan-Shakil/PitWall](https://github.com/Mohammad-Adnan-Shakil/PitWall) |
-
-</details>
+```
+Stack    : Mistral 7B / Llama 3.1 8B · QLoRA · PEFT · HuggingFace · pgvector · FastAPI · React
+Data     : Indian Kanoon — 20M+ court judgements · acts · legal precedents
+Method   : QLoRA (4-bit quantization + LoRA adapters)
+Eval     : RAGAS — faithfulness · answer relevance · context precision · hallucination rate
+Status   : Shipped · August 2026
+```
 
 ---
 
-<details>
-<summary><b>🕵️ Cypher — Autonomous Multi-Agent Job Intelligence System</b></summary>
+### Pitwall — Agentic RAG for F1 Race Intelligence
 
-<br/>
+```
+Stack    : LangGraph · FastAPI · pgvector · PostgreSQL · Groq · RAGAS · React
+Repo     : github.com/Mohammad-Adnan-Shakil/PitWall
+Live     : pit-wall-lemon.vercel.app
+```
 
-Fully autonomous 5-agent job intelligence system that finds opportunities, researches founders, drafts personalized outreach, tracks replies, and learns from feedback — zero manual intervention required.
-
-| Attribute | Details |
-|---|---|
-| Stack | Python · LangGraph · FastAPI · PostgreSQL · React · Groq · Gmail API · GitHub Actions |
-| Agents | Opportunity Scout · Founder Researcher · Outreach Drafter · Tech Pulse · Reply Tracker |
-| Scheduling | GitHub Actions cron — runs daily at 7am IST, no server infrastructure |
-| Performance | Batched LLM scoring reduced Groq API calls ~15x after production rate limit hit |
-| Memory | cypher_memory feedback loop — learns approve/skip patterns, adjusts scoring over time |
-| Deployment | Live at cypher-navy.vercel.app |
-| Repository | [github.com/Mohammad-Adnan-Shakil/Cypher](https://github.com/Mohammad-Adnan-Shakil/Cypher) |
-
-</details>
+Agent evaluates retrieval sufficiency before answering — not a fixed pipeline. RAGAS-evaluated across faithfulness, answer relevance, context precision and hallucination rate.
 
 ---
 
-<details>
-<summary><b>🤖 bengaluru-commute-agent — Multi-Agent Commute Planning AI</b></summary>
+### Cypher — Autonomous 5-Agent Job Intelligence System
 
-<br/>
-
-Multi-agent commute planning system for Bengaluru with strict separation of concerns — real road geometry, live congestion reasoning, and temporal decision-making.
-
-| Attribute | Details |
-|---|---|
-| Stack | Python · Google ADK · Gemini 2.5 Flash-Lite · FastAPI · React · OpenRouteService · React-Leaflet |
-| Architecture | Orchestrator → route_agent (data only) → advisor_agent (decisions only) |
-| Recognition | Ranked 144th · Google AI Agent Builder Series 2026 (HiDevs × Google for Developers) |
-| Repository | [github.com/Mohammad-Adnan-Shakil/bengaluru-commute-agent](https://github.com/Mohammad-Adnan-Shakil/bengaluru-commute-agent) |
-
-</details>
+```
+Stack       : LangGraph · FastAPI · PostgreSQL · React · Groq · Gmail API · GitHub Actions
+Agents      : Opportunity Scout · Founder Researcher · Outreach Drafter · Tech Pulse · Reply Tracker
+Schedule    : GitHub Actions cron — runs daily 7am IST · no server infrastructure
+Optimization: Batched LLM scoring — ~15x reduction in Groq API calls after rate limit hit
+Memory      : cypher_memory feedback loop — learns approve/skip patterns
+Repo        : github.com/Mohammad-Adnan-Shakil/Cypher
+Live        : cypher-navy.vercel.app
+```
 
 ---
 
-<details>
-<summary><b>🪲 commute-memory-agent — Agentic Memory Layer</b></summary>
+### bengaluru-commute-agent — Multi-Agent Commute Planning AI
 
-<br/>
-
-Extends bengaluru-commute-agent with persistent agentic memory via CockroachDB — agent remembers past commutes, preferred routes, and outcome history.
-
-| Attribute | Details |
-|---|---|
-| Stack | Python · CockroachDB · AWS · LangGraph · Distributed Vector Indexing · MCP Server |
-| Hackathon | CockroachDB × AWS — "Build with Agentic Memory" · August 2026 |
-| Status | ✅ Shipped — August 2026 |
-
-</details>
+```
+Stack       : Google ADK · Gemini 2.5 Flash-Lite · FastAPI · React · OpenRouteService · React-Leaflet
+Architecture: Orchestrator → route_agent (data only) → advisor_agent (decisions only)
+Recognition : Ranked 144th · Google AI Agent Builder Series 2026 (HiDevs × Google for Developers)
+Repo        : github.com/Mohammad-Adnan-Shakil/bengaluru-commute-agent
+```
 
 ---
 
-<details>
-<summary><b>🎙️ FakeOut AI — Voice Deepfake Detection System</b></summary>
+### FakeOut AI — Voice Deepfake Detection
 
-<br/>
-
-Dual-model ML ensemble classifying real vs. AI-generated audio using wav2vec2 embeddings and MFCC/spectral features.
-
-| Attribute | Details |
-|---|---|
-| Stack | Python · XGBoost · Random Forest · wav2vec2 · Librosa · FastAPI · React |
-| Ensemble | Majority-vote — disagreement flagged as low-confidence |
-| Training | 3,000+ labeled audio samples · 80/20 split |
-| Event | FusionX Hackathon 2026 — top score in first technical evaluation round |
-| Repository | [github.com/FuncLexa/FakeOut-AI](https://github.com/FuncLexa/FakeOut-AI) |
-
-</details>
+```
+Stack    : XGBoost · Random Forest · wav2vec2 · Librosa · FastAPI · React
+Ensemble : Majority-vote — disagreement flagged as low-confidence
+Training : 3,000+ labeled audio samples · 80/20 split
+Event    : FusionX Hackathon 2026 — top score in first technical evaluation round
+Repo     : github.com/FuncLexa/FakeOut-AI
+```
 
 ---
 
-## ◈ Experience
+## Experience
 
 **Software Engineering Intern — Backend & AI Systems**
 Dyslexia Reading Tutor AI · Remote · June 2026 – August 2026
 
-- Evaluated 3 voice-AI architectures against latency, cost, and production-readiness; selected and shipped ElevenLabs
+- Evaluated 3 voice-AI architectures against latency, cost and production-readiness; selected and shipped ElevenLabs
 - Designed full serverless pipeline: HubSpot → API Gateway → AWS Lambda → ElevenLabs → DynamoDB → EventBridge → HubSpot CRM sync
 - Built 3 production Node.js Lambda functions — outbound call triggering, conversation-outcome polling, bi-directional CRM sync
 - Identified that HubSpot workflows cannot directly drive a telephony vendor and architected the required middleware orchestration layer
 
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonaws)
-![Lambda](https://img.shields.io/badge/Lambda-FF9900?style=flat-square&logo=awslambda)
-![DynamoDB](https://img.shields.io/badge/DynamoDB-4053D6?style=flat-square&logo=amazondynamodb)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs)
-![ElevenLabs](https://img.shields.io/badge/ElevenLabs-000000?style=flat-square)
-![HubSpot](https://img.shields.io/badge/HubSpot-FF7A59?style=flat-square&logo=hubspot)
+---
+
+## Achievements
+
+| | Recognition | Details |
+|---|---|---|
+| 🏥 | SIH 2026 | DRISHTI selected · SIH26038 · MathWorks · Awaiting Grand Finale shortlisting |
+| 🚀 | Production Internship | Shipped end-to-end AWS voice-AI pipeline within 3 weeks of joining |
+| 🏆 | Google AI Agent Builder Series 2026 | Ranked 144th · HiDevs × Google for Developers |
+| 🎯 | FusionX Hackathon 2026 | Top score in first technical evaluation round — FakeOut AI |
+| 🔬 | Open Source | PR #3507 merged to topoteretes/cognee (23k ⭐) — mem0→Cognee migration |
+| 🏗️ | Build with TRAE Hackathon | 5th place — CentSight AI financial decision simulator |
 
 ---
 
-## ◈ Achievements
+## GitHub Analytics
 
 <div align="center">
 
-| Recognition | Details |
-|---|---|
-| 🏥 SIH 2026 Grand Finale | Selected for Grand Finale — DRISHTI (Explainable AI for DR Screening) · SIH26038 · MathWorks · Sep 25-26, Bengaluru |
-| 🚀 Production Internship | Shipped end-to-end production AWS voice-AI pipeline within 3 weeks of joining |
-| 🏆 Google AI Agent Builder Series 2026 | Ranked 144th · HiDevs × Google for Developers |
-| 🎯 FusionX Hackathon 2026 | Top score in first technical evaluation round for FakeOut AI |
-| 📚 Academic | 7.99 CGPA while independently architecting and deploying 7+ full-stack AI platforms |
-| 🔬 Open Source | PR #3507 merged to topoteretes/cognee (23k ⭐) — mem0→Cognee migration example |
-| 🏗️ Build with TRAE Hackathon | 5th place — CentSight AI financial decision simulator |
+<img height="180" src="https://github-readme-stats.vercel.app/api?username=Mohammad-Adnan-Shakil&show_icons=true&theme=dark&hide_border=true&title_color=6B7C4A&icon_color=6B7C4A&count_private=true"/>
+<img height="180" src="https://github-readme-streak-stats.herokuapp.com/?user=Mohammad-Adnan-Shakil&theme=dark&hide_border=true&ring=6B7C4A&fire=6B7C4A&currStreakLabel=6B7C4A"/>
+
+</div>
+
+<div align="center">
+
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Mohammad-Adnan-Shakil&layout=compact&theme=dark&hide_border=true&title_color=6B7C4A"/>
 
 </div>
 
 ---
 
-## ◈ GitHub Analytics
+## Current Focus
 
-<div align="center">
+```yaml
+building:
+  - DRISHTI (SIH26038) — awaiting Grand Finale shortlisting
+  - AutoHire.AI — HackSprint MAHE, result pending
 
-<img height="180" src="https://github-readme-stats.vercel.app/api?username=Mohammad-Adnan-Shakil&show_icons=true&theme=dark&hide_border=true&title_color=DC143C&icon_color=DC143C&border_color=8B0000&count_private=true"/>
-<img height="180" src="https://github-readme-streak-stats.herokuapp.com/?user=Mohammad-Adnan-Shakil&theme=dark&hide_border=true&ring=DC143C&fire=DC143C&currStreakLabel=DC143C"/>
+grinding:
+  - NeetCode 150 — 56 problems done · currently Trees section
+  - System design — 1 ByteByteGo topic/week
 
-</div>
+open_to:
+  - Part-time ML Engineering
+  - Part-time Backend Engineering
+  - Agentic AI roles at AI-first startups
+  - Remote · async-friendly
+```
 
 ---
 
-## ◈ Contribution Graph
+## Contribution Graph
 
 <div align="center">
 
@@ -318,59 +271,8 @@ Dyslexia Reading Tutor AI · Remote · June 2026 – August 2026
 
 ---
 
-## ◈ Current Focus
-
-```yaml
-building:
-  - DRISHTI — Explainable AI for DR Screening (SIH26038)
-      EfficientNet-B4 + Grad-CAM + MATLAB + FastAPI + NeonDB + React PWA
-      Grand Finale: Sep 25-26, 2026 · Submission deadline Sep 30
-      Features: patient history, referral tracking, offline PWA, active learning
-      Live: drishti-ai-ruddy.vercel.app
-
-grinding:
-  - NeetCode 150 — 1 problem/day weekdays, 2 on weekends
-      target: complete by December 2026
-      currently: Stack section
-  - System design — 1 ByteByteGo video/week
-
-shipped:
-  - Jurix — fine-tuned LLM on Indian legal corpus (QLoRA, RAGAS evaluated)
-  - commute-memory-agent — agentic memory via CockroachDB × AWS Hackathon
-  - Pitwall — agentic RAG for F1 intelligence (pit-wall-lemon.vercel.app)
-  - Cypher — autonomous 5-agent job intelligence (cypher-navy.vercel.app)
-
-learning:
-  - MATLAB Image Processing Toolbox (for DRISHTI)
-  - EfficientNet transfer learning on medical imaging
-  - Grad-CAM explainability implementation
-
-open_to:
-  - Part-time ML Engineering roles
-  - Part-time Backend Engineering roles
-  - AI-first startups with steep learning curves
-  - Remote or Bengaluru-based positions
+```
+"Architecture is the art of making deliberate decisions — and being able to defend every single one."
 ```
 
----
-
-## ◈ Connect
-
-<div align="center">
-
-[![Gmail](https://img.shields.io/badge/muhammedadnanshakil456%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:muhammedadnanshakil456@gmail.com)
-[![LinkedIn](https://img.shields.io/badge/mohammadadnanshakil-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/mohammadadnanshakil)
-[![GitHub](https://img.shields.io/badge/Mohammad--Adnan--Shakil-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Mohammad-Adnan-Shakil)
-[![Portfolio](https://img.shields.io/badge/portfolio--p2jh.vercel.app-111111?style=for-the-badge&logo=vercel&logoColor=white)](https://portfolio-p2jh.vercel.app)
-
-</div>
-
----
-
-<div align="center">
-
-*"Architecture is the art of making deliberate decisions — and being able to defend every single one."*
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=000000,8B0000,DC143C&height=120&section=footer"/>
-
-</div>
+![Profile Views](https://komarev.com/ghpvc/?username=Mohammad-Adnan-Shakil&color=6B7C4A&style=flat-square&label=Profile+Views)
