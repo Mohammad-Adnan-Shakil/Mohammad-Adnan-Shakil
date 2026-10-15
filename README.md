@@ -1,97 +1,144 @@
-Backend · AI Systems · ML Engineering
+<div align="center">
 
-# Mohammad Adnan Shakil
+```
+MOHAMMAD ADNAN SHAKIL
+Backend · AI Systems · ML Engineering
+Bengaluru, India · 2024–2028
+```
+
+[![Portfolio](https://img.shields.io/badge/PORTFOLIO-000000?style=flat-square&logoColor=white)](https://portfolio-p2jh.vercel.app)&nbsp;
+[![GitHub](https://img.shields.io/badge/GITHUB-000000?style=flat-square&logo=github&logoColor=white)](https://github.com/Mohammad-Adnan-Shakil)&nbsp;
+[![LinkedIn](https://img.shields.io/badge/LINKEDIN-000000?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/mohammadadnanshakil)&nbsp;
+[![Mail](https://img.shields.io/badge/EMAIL-000000?style=flat-square&logo=gmail&logoColor=white)](mailto:muhammedadnanshakil456@gmail.com)
+
+![CGPA](https://img.shields.io/badge/CGPA-7.99%2F10-222222?style=flat-square)&nbsp;
+![Status](https://img.shields.io/badge/OPEN_TO-Part--time_%7C_Remote-222222?style=flat-square)&nbsp;
+![DSA](https://img.shields.io/badge/NeetCode_150-56_done-222222?style=flat-square)
+
+</div>
+
+<br>
 
 3rd year CSE, Presidency University Bengaluru. I build backend-first AI systems where every architectural decision is deliberate, not default. Seven production systems shipped independently.
 
-[Portfolio](https://portfolio-p2jh.vercel.app) [GitHub](https://github.com/Mohammad-Adnan-Shakil) [LinkedIn](https://linkedin.com/in/mohammadadnanshakil) muhammedadnanshakil456@gmail.com
+---
 
-University
+## ▸ Active Build
 
-Presidency University, CSE
+**DRISHTI — Explainable AI for Diabetic Retinopathy Screening** `SIH26038 · MathWorks`
 
-Batch
+Health worker uploads fundus image → MATLAB quality check → EfficientNet-B4 classifies DR severity → Grad-CAM heatmap localises lesions → Groq generates referral. Doctor reviews in under 30 seconds. Offline-first PWA. 480 patients/PHC/day modelled in Simulink.
 
-2024 – 2028
+| | |
+|---|---|
+| **Stack** | EfficientNet-B4 · Grad-CAM · MATLAB · FastAPI · NeonDB · React PWA · Groq |
+| **Target** | Sensitivity >90% · Specificity >85% for referable DR (Grade 2+) |
+| **Dataset** | APTOS 2019 · IDRiD · DRIVE · Messidor-2 |
+| **Live** | [drishti-ai-ruddy.vercel.app](https://drishti-ai-ruddy.vercel.app) |
 
-CGPA
+---
 
-7.99 / 10
+## ▸ Projects
 
-Available
+**[DeltaBox](https://deltabox-2.onrender.com)** — AI-Powered F1 Intelligence Platform
 
-Part-time · Remote
+Full-stack F1 analytics platform. XGBoost + RF ensemble, What-If simulation, Groq-powered race engineer chat. Spring Boot ↔ Python via `ProcessBuilder` — no external ML service, no network hop.
 
-Active Build
+`79.6% Top-3 accuracy` · `13.4ms inference` · `R² 0.62` · `Spring Boot · XGBoost · React · PostgreSQL`
 
-Live SIH 2026 · SIH26038
+---
 
-DRISHTI — Explainable AI for Diabetic Retinopathy
+**[Cypher](https://cypher-navy.vercel.app)** — Autonomous 5-Agent Job Intelligence System
 
-Complete DR screening system for rural India. Health worker uploads fundus image → MATLAB quality check → EfficientNet-B4 classifies severity → Grad-CAM heatmap localises lesions → Groq generates referral. Doctor reviews in under 30 seconds. Offline-first PWA. 480 patients/PHC/day modelled in Simulink.
+Finds opportunities, researches founders, drafts outreach, tracks replies, learns from feedback. Runs on GitHub Actions cron at 7am IST — zero server infrastructure. ~15× reduction in Groq API calls via batched scoring.
 
-Stack EfficientNet-B4 · Grad-CAM · MATLAB · FastAPI · NeonDB · React PWA · Groq
+`LangGraph · FastAPI · PostgreSQL · Gmail API · GitHub Actions`
 
-Target Sensitivity >90% · Specificity >85% (Grade 2+)
+---
 
-Dataset APTOS 2019 · IDRiD · DRIVE · Messidor-2
+**[Pitwall](https://pit-wall-lemon.vercel.app)** — Agentic RAG for F1 Race Intelligence
 
-Live [drishti-ai-ruddy.vercel.app](https://drishti-ai-ruddy.vercel.app)
+Agent evaluates retrieval sufficiency before answering — not a fixed pipeline. RAGAS-evaluated: faithfulness, answer relevance, context precision, hallucination rate.
 
-Projects
+`LangGraph · pgvector · Groq · RAGAS · FastAPI`
 
-[DeltaBox Full-stack F1 analytics platform. XGBoost + Random Forest ensemble, What-If simulation, race engineer chat. Spring Boot ↔ Python via ProcessBuilder — no external ML service, no network hop. 79.6% Top-3 accuracy · 13.4ms inference · R² 0.62 Spring BootXGBoostReactPostgreSQL](https://deltabox-2.onrender.com) [Cypher Autonomous 5-agent job intelligence system. Finds opportunities, researches founders, drafts outreach, tracks replies. Runs on GitHub Actions cron — zero server infrastructure. Learns approve/skip patterns. \~15× reduction in API calls via batched scoring LangGraphFastAPIGmail APIGitHub Actions](https://github.com/Mohammad-Adnan-Shakil/Cypher) [Pitwall Agentic RAG for F1 race intelligence. Agent evaluates retrieval sufficiency before answering — not a fixed pipeline. RAGAS-evaluated: faithfulness, answer relevance, context precision, hallucination rate. pgvector · RAGAS evaluation · LangGraph LangGraphpgvectorGroqRAGAS](https://pit-wall-lemon.vercel.app) [AutoHire.AI Resume → scored, tiered, emailed in 44.3 seconds. 100-point rubric enforced in code, not prompt. 14-node n8n workflow. Every decision logged with written reasoning. 44.3s per resume · 14-node n8n · HackSprint MAHE n8nLlamaParseGroqFastAPI](https://github.com/Mohammad-Adnan-Shakil/AutohireAI) [Bengaluru Commute Agent Multi-agent commute planner with strict separation of concerns. Route agent handles data only. Advisor agent handles decisions only. Real road geometry, live congestion reasoning. Ranked 144th · Google AI Agent Builder Series 2026 Google ADKGemini 2.5FastAPIReact-Leaflet](https://github.com/Mohammad-Adnan-Shakil/bengaluru-commute-agent) [Jurix Domain-specific LLM fine-tuned on 20M+ Indian court judgements via QLoRA. Agentic RAG layer on top. RAGAS evaluation comparing fine-tuned vs base model on Indian legal Q&A. Mistral 7B / Llama 3.1 8B · 4-bit QLoRA QLoRAPEFTpgvectorRAGAS](https://github.com/Mohammad-Adnan-Shakil) [FakeOut AI Dual-model ensemble classifying real vs AI-generated audio. wav2vec2 embeddings + MFCC/spectral features. Disagreement between models flagged as low-confidence — not forced binary. 3,000+ samples · FusionX top score, first eval round wav2vec2XGBoostLibrosaFastAPI](https://github.com/FuncLexa/FakeOut-AI)
+---
 
-Stack
+**[AutoHire.AI](https://github.com/Mohammad-Adnan-Shakil/AutohireAI)** — Autonomous Recruitment Screening
 
-| Languages | JavaPythonJavaScriptC |
-| --- | --- |
-| Backend | Spring BootFastAPINode.jsAWS Lambda |
-| ML / AI | XGBoostRandom ForestEfficientNet-B4Grad-CAMwav2vec2QLoRAPEFT |
-| Agents | LangGraphGoogle ADKn8nRAGAS |
-| Data | PostgreSQLpgvectorNeonDBCockroachDBDynamoDBMongoDB |
-| Cloud | AWS LambdaAPI GatewayEventBridgeVercelRender |
-| Frontend | ReactReact 19TailwindPWA |
-| Other | MATLABSimulinkGitHub ActionsDocker |
+Resume → scored, tiered, emailed in 44.3s. 100-point rubric enforced in code, not prompt. 14-node n8n workflow. Every decision logged with written reasoning.
 
-Experience
+`n8n · LlamaParse · Groq · FastAPI · React 19 · Airtable · Gmail` · HackSprint MAHE
 
-Jun – Aug 2026\
-Remote
+---
 
-Software Engineering Intern — Backend & AI Systems
+**[Jurix](https://github.com/Mohammad-Adnan-Shakil)** — Fine-Tuned LLM for Indian Legal Intelligence
 
-Dyslexia Reading Tutor AI
+QLoRA fine-tuning on 20M+ Indian court judgements. Agentic RAG layer. RAGAS evaluation comparing fine-tuned vs base model on Indian legal Q&A.
 
-- Evaluated 3 voice-AI architectures against latency, cost, production-readiness; selected and shipped ElevenLabs
+`Mistral 7B · Llama 3.1 8B · QLoRA · PEFT · pgvector · RAGAS`
+
+---
+
+**[bengaluru-commute-agent](https://github.com/Mohammad-Adnan-Shakil/bengaluru-commute-agent)** — Multi-Agent Commute Planner
+
+Strict separation of concerns: route\_agent handles data only, advisor\_agent handles decisions only. Real road geometry, live congestion reasoning.
+
+`Google ADK · Gemini 2.5 Flash-Lite · FastAPI · React-Leaflet` · Ranked 144th, Google AI Agent Builder Series 2026
+
+---
+
+**[FakeOut AI](https://github.com/FuncLexa/FakeOut-AI)** — Voice Deepfake Detection
+
+Dual-model ensemble on wav2vec2 embeddings + MFCC/spectral features. Disagreement flagged as low-confidence — not forced binary. 3,000+ labeled samples.
+
+`XGBoost · Random Forest · wav2vec2 · Librosa · FastAPI` · FusionX Hackathon — top score, first eval round
+
+---
+
+## ▸ Stack
+
+```
+Languages     Java · Python · JavaScript · C
+Backend       Spring Boot · FastAPI · Node.js · AWS Lambda · API Gateway
+ML / AI       XGBoost · Random Forest · EfficientNet-B4 · Grad-CAM
+              wav2vec2 · QLoRA · PEFT · SFTTrainer · HuggingFace
+Agents        LangGraph · Google ADK · n8n · RAGAS
+Data          PostgreSQL · pgvector · NeonDB · CockroachDB · DynamoDB · MongoDB
+Cloud         AWS Lambda · EventBridge · Vercel · Render · GitHub Actions
+Frontend      React · React 19 · Tailwind · PWA
+Other         MATLAB · Simulink · Docker · JWT · RBAC
+```
+
+---
+
+## ▸ Experience
+
+**Software Engineering Intern — Backend & AI Systems**
+Dyslexia Reading Tutor AI · Remote · Jun – Aug 2026
+
+- Evaluated 3 voice-AI architectures against latency, cost, and production-readiness; selected and shipped ElevenLabs
 - Designed full serverless pipeline: HubSpot → API Gateway → AWS Lambda → ElevenLabs → DynamoDB → EventBridge → HubSpot CRM sync
 - Identified that HubSpot workflows cannot directly drive a telephony vendor; architected the required middleware orchestration layer
 - Built 3 production Node.js Lambda functions — call triggering, conversation-outcome polling, bi-directional CRM sync. Verified in production before leaving.
 
-Recognition
+---
 
-DRISHTI selected — Smart India Hackathon 2026 · SIH26038 · MathWorks
+## ▸ Recognition
 
-Awaiting Grand Finale
+| | |
+|---|---|
+| Smart India Hackathon 2026 | DRISHTI selected · SIH26038 · MathWorks · Awaiting Grand Finale |
+| Production internship | AWS voice-AI pipeline shipped end-to-end within 3 weeks of joining |
+| Google AI Agent Builder Series 2026 | Ranked 144th · HiDevs × Google for Developers |
+| FusionX Hackathon 2026 | Top score in first technical evaluation round — FakeOut AI |
+| Open Source | PR #3507 merged — mem0→Cognee migration · topoteretes/cognee (23k ⭐) |
+| Build with TRAE Hackathon | 5th place — CentSight AI financial decision simulator |
 
-Production AWS voice-AI pipeline shipped end-to-end within 3 weeks of joining
+---
 
-Dyslexia Reading Tutor AI
+<div align="center">
 
-Google AI Agent Builder Series 2026
+*Architecture is the art of making deliberate decisions — and being able to defend every single one.*
 
-Ranked 144th · HiDevs × Google
-
-FakeOut AI — top score in first technical evaluation round
-
-FusionX Hackathon 2026
-
-PR #3507 merged — mem0 → Cognee migration
-
-topoteretes/cognee · 23k ⭐
-
-CentSight AI — financial decision simulator
-
-Build with TRAE · 5th place
-
-Mohammad Adnan Shakil Presidency University · B.Tech CSE 2024 – 2028 · Bengaluru, India
+</div>
