@@ -14,7 +14,7 @@
 ![](https://img.shields.io/badge/CGPA-7.99%2F10-2a4a4a?style=flat-square&labelColor=1a1a1a&color=2a4a4a)&nbsp;
 ![](https://img.shields.io/badge/Presidency_University-CSE_2028-2a4a4a?style=flat-square&labelColor=1a1a1a&color=2a4a4a)&nbsp;
 ![](https://img.shields.io/badge/Open_To-Part--time_%7C_Remote-E8956D?style=flat-square&labelColor=1a1a1a&color=E8956D)&nbsp;
-![](https://img.shields.io/badge/NeetCode_150-56_done-2a4a4a?style=flat-square&labelColor=1a1a1a&color=2a4a4a)
+![](https://img.shields.io/badge/NeetCode_150-82_done-2a4a4a?style=flat-square&labelColor=1a1a1a&color=2a4a4a)
 
 </div>
 
