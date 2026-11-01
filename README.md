@@ -14,7 +14,7 @@
 ![](https://img.shields.io/badge/CGPA-7.99%2F10-2a4a4a?style=flat-square&labelColor=1a1a1a&color=2a4a4a)&nbsp;
 ![](https://img.shields.io/badge/Presidency_University-CSE_2028-2a4a4a?style=flat-square&labelColor=1a1a1a&color=2a4a4a)&nbsp;
 ![](https://img.shields.io/badge/Open_To-Part--time_%7C_Remote-E8956D?style=flat-square&labelColor=1a1a1a&color=E8956D)&nbsp;
-![](https://img.shields.io/badge/NeetCode_150-82_done-2a4a4a?style=flat-square&labelColor=1a1a1a&color=2a4a4a)
+![](https://img.shields.io/badge/NeetCode_150-97_done-2a4a4a?style=flat-square&labelColor=1a1a1a&color=2a4a4a)
 
 </div>
 
@@ -53,7 +53,7 @@ Health worker uploads fundus image → MATLAB quality check → EfficientNet-B4 
 
 > Full-stack F1 analytics independently architected end-to-end. XGBoost + RF ensemble, What-If simulation, race engineer chat. Spring Boot ↔ Python via `ProcessBuilder` — no external ML service, no network hop.
 
-![](https://img.shields.io/badge/79.6%25_Top--3_Accuracy-1a1a1a?style=flat-square&labelColor=2a4a4a&color=1a1a1a)&nbsp;![](https://img.shields.io/badge/13.4ms_Inference-1a1a1a?style=flat-square&labelColor=2a4a4a&color=1a1a1a)&nbsp;![](https://img.shields.io/badge/R²_0.62-1a1a1a?style=flat-square&labelColor=2a4a4a&color=1a1a1a)
+![](https://img.shields.io/badge/79.6%25_Top--3_Accuracy-1a1a1a?style=flat-square&labelColor=2a4a4a&color=1a1a1a)&nbsp;![](https://img.shields.io/badge/13.4ms_Inference-1a1a1a?style=flat-square&labelColor=2a4a4a&color=1a1a1a)&nbsp;![](https://img.shields.io/badge/R²_0.66-1a1a1a?style=flat-square&labelColor=2a4a4a&color=1a1a1a)
 
 `Spring Boot` `XGBoost` `Random Forest` `React` `PostgreSQL` `JWT`
 
@@ -85,7 +85,7 @@ Health worker uploads fundus image → MATLAB quality check → EfficientNet-B4 
 
 ---
 
-**[Jurix](https://github.com/Mohammad-Adnan-Shakil)** &nbsp;·&nbsp; Fine-Tuned LLM for Indian Legal Intelligence
+**[Jurix](https://github.com/Mohammad-Adnan-Shakil/Jurix)** &nbsp;·&nbsp; Fine-Tuned LLM for Indian Legal Intelligence
 
 > QLoRA fine-tuning on 20M+ Indian court judgements. Agentic RAG layer. RAGAS evaluation comparing fine-tuned vs base model on Indian legal Q&A.
 
@@ -200,7 +200,7 @@ Health worker uploads fundus image → MATLAB quality check → EfficientNet-B4 
 
 | Recognition | Details |
 |:---|:---|
-| 🏥 **Smart India Hackathon 2026** | DRISHTI selected · SIH26038 · MathWorks · Awaiting Grand Finale |
+| 🏥 **Smart India Hackathon 2026** | DRISHTI selected · SIH26038 · MathWorks · Internal round cleared |
 | 🚀 **Production Internship** | AWS voice-AI pipeline shipped end-to-end within 3 weeks of joining |
 | 🏆 **Google AI Agent Builder Series 2026** | Ranked 144th · HiDevs × Google for Developers |
 | 🎯 **FusionX Hackathon 2026** | Top score in first technical evaluation round — FakeOut AI |
